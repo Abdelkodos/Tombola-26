@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abrar · Historique des Gagnants</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css" />
+</head>
+<body>
+
+<div class="page-wrapper">
+
+  <!-- En-tête -->
+  <header class="site-header">
+    <div class="logo-area">
+      <img class="logo-img" src="data:image/png;base64,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" alt="Logo Abrar" />
+      <div class="logo-divider"></div>
+      <span class="logo-label">Tirage au Sort</span>
+    </div>
+    <nav class="header-nav">
+      <a class="nav-link" href="index.html">Tirage</a>
+      <a class="nav-link active" href="history.html">Historique</a>
+    </nav>
+  </header>
+
+  <!-- Titre -->
+  <div class="page-title">
+    <h1>Historique des <em>Gagnants</em></h1>
+    <p>Tous les tirages enregistrés</p>
+  </div>
+
+  <!-- Tableau -->
+  <div class="card">
+    <div class="history-controls">
+      <p class="card-title" style="margin-bottom:0">Tous les Gagnants</p>
+      <div style="display:flex;gap:0.5rem;align-items:center">
+        <button class="btn btn-outline" onclick="exportCSV()">
+          <i class="ti ti-download"></i> Exporter CSV
+        </button>
+        <button class="btn btn-danger" onclick="clearAll()">
+          <i class="ti ti-trash"></i> Effacer
+        </button>
+      </div>
+    </div>
+
+    <div id="historyContainer"></div>
+  </div>
+
+</div>
+
+<script src="db.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', renderHistory);
+
+  function renderHistory() {
+    const container = document.getElementById('historyContainer');
+    const winners   = DB.getWinners();
+
+    if (!winners.length) {
+      container.innerHTML = `
+        <div class="empty-state">
+          <div class="empty-icon"><i class="ti ti-trophy"></i></div>
+          <p>Aucun gagnant pour l'instant.<br>Rendez-vous sur la page Tirage pour lancer votre premier tirage.</p>
+        </div>`;
+      return;
+    }
+
+    const rows = winners.slice().reverse().map((w, i) => {
+      const rank = winners.length - i;
+      return `
+        <tr>
+          <td class="rank-cell">#${rank}</td>
+          <td class="name-cell">${escHtml(w.name)}</td>
+          <td class="date-cell">${w.date} à ${w.time}</td>
+          <td class="action-cell">
+            <button class="del-btn" onclick="deleteWinner(${w.id})" title="Supprimer">
+              <i class="ti ti-x"></i>
+            </button>
+          </td>
+        </tr>`;
+    }).join('');
+
+    container.innerHTML = `
+      <table class="history-table">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Nom</th>
+            <th>Date &amp; Heure</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>${rows}</tbody>
+      </table>`;
+  }
+
+  function deleteWinner(id) {
+    if (!confirm('Supprimer ce gagnant de l\'historique ?')) return;
+    DB.deleteWinner(id);
+    renderHistory();
+  }
+
+  function clearAll() {
+    if (!confirm('Effacer tout l\'historique ? Cette action est irréversible.')) return;
+    DB.clearWinners();
+    renderHistory();
+  }
+
+  function exportCSV() {
+    const winners = DB.getWinners();
+    if (!winners.length) { alert('Aucun historique à exporter.'); return; }
+    const header = 'Rang,Nom,Date,Heure';
+    const rows   = winners.map((w, i) =>
+      `${i+1},"${w.name}","${w.date}","${w.time}"`
+    ).join('\n');
+    const blob = new Blob([`${header}\n${rows}`], { type: 'text/csv' });
+    const url  = URL.createObjectURL(blob);
+    const a    = document.createElement('a');
+    a.href = url;
+    a.download = 'abrar-historique-tirage.csv';
+    a.click();
+    URL.revokeObjectURL(url);
+  }
+
+  function escHtml(str) {
+    return String(str).replace(/[&<>"']/g, c =>
+      ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  }
+</script>
+</body>
+</html>
