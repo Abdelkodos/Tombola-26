@@ -13,6 +13,12 @@ document.addEventListener('DOMContentLoaded', async () => {
   renderTombolaSelection();
 });
 
+document.addEventListener("keydown", (event) => {
+  if (event.key === "Backspace") {
+    backToTombolas();
+  }
+});
+
 /* ════════════════════════════════════════
    STEP 1 — TOMBOLA SELECTION
 ════════════════════════════════════════ */
@@ -82,8 +88,8 @@ function renderCompanySetup() {
       </div>
       <div class="candidate-preview">
         ${remaining.slice(0, 5).map(c =>
-          `<span class="name-tag">${esc(c.nom)} ${esc(c.prenom)}</span>`
-        ).join('')}
+      `<span class="name-tag">${esc(c.nom)} ${esc(c.prenom)}</span>`
+    ).join('')}
         ${remaining.length > 5 ? `<span class="name-tag more-tag">+${remaining.length - 5} autres</span>` : ''}
       </div>
     </div>`;
@@ -233,14 +239,14 @@ function launchConfetti() {
     const p = document.createElement('div');
     p.className = 'confetti-piece';
     p.style.cssText = `
-      left:${Math.random()*100}%;
-      background:${colors[Math.floor(Math.random()*colors.length)]};
-      animation-delay:${(Math.random()*.6).toFixed(2)}s;
-      animation-duration:${(1.2+Math.random()*.8).toFixed(2)}s;
-      transform:rotate(${Math.floor(Math.random()*360)}deg);
-      border-radius:${Math.random()>.5?'50%':'2px'};
-      width:${6+Math.floor(Math.random()*6)}px;
-      height:${6+Math.floor(Math.random()*6)}px;`;
+      left:${Math.random() * 100}%;
+      background:${colors[Math.floor(Math.random() * colors.length)]};
+      animation-delay:${(Math.random() * .6).toFixed(2)}s;
+      animation-duration:${(1.2 + Math.random() * .8).toFixed(2)}s;
+      transform:rotate(${Math.floor(Math.random() * 360)}deg);
+      border-radius:${Math.random() > .5 ? '50%' : '2px'};
+      width:${6 + Math.floor(Math.random() * 6)}px;
+      height:${6 + Math.floor(Math.random() * 6)}px;`;
     confettiEl.appendChild(p);
   }
   setTimeout(() => { confettiEl.innerHTML = ''; }, 2800);
@@ -259,7 +265,7 @@ function showToast(message, type = 'success') {
     background:var(--charcoal);color:var(--cream);
     font-family:var(--font-body);font-size:.82rem;letter-spacing:.04em;
     border-radius:var(--radius-sm);
-    border-left:3px solid ${type==='error'?'var(--danger)':'var(--gold)'};
+    border-left:3px solid ${type === 'error' ? 'var(--danger)' : 'var(--gold)'};
     box-shadow:0 8px 32px rgba(44,44,44,.2);z-index:9999;
     animation:toastIn .3s ease;`;
   const s = document.createElement('style');
@@ -271,5 +277,5 @@ function showToast(message, type = 'success') {
 
 function esc(str) {
   return String(str || '').replace(/[&<>"']/g, c =>
-    ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+    ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 }
