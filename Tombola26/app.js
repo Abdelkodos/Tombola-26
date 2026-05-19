@@ -4,6 +4,7 @@ let currentData = null;
 let drawQueue = [];
 let drawQueueIndex = 0;
 let rolling = false;
+let entertainmentMode = true;
 
 const confettiEl = document.getElementById('confettiContainer');
 
@@ -14,7 +15,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 });
 
 document.addEventListener("keydown", (event) => {
-  if (event.key === "Backspace") {
+  if (event.key === "Backspace" && !["INPUT", "TEXTAREA", "SELECT"].includes(document.activeElement.tagName)) {
     backToTombolas();
   }
 });
@@ -90,7 +91,24 @@ function renderCompanySetup() {
         ${remaining.slice(0, 5).map(c =>
       `<span class="name-tag">${esc(c.nom)} ${esc(c.prenom)}</span>`
     ).join('')}
-        ${remaining.length > 5 ? `<span class="name-tag more-tag">+${remaining.length - 5} autres</span>` : ''}
+        ${remaining.length > 5 ? `<span class="name-tag more-tag clickable-more" onclick="toggleCandidateTable(this, '${esc(company)}')">+${remaining.length - 5} autres</span>` : ''}
+      </div>
+      <div class="candidate-table-wrap" id="table_${esc(company)}" style="display:none">
+        <input type="text" class="table-search-input" placeholder="Rechercher…"
+          oninput="filterTable(this, '${esc(company)}')" />
+        <div class="candidate-table-scroll">
+          <table class="history-table candidate-full-table">
+            <thead><tr><th>Nom</th><th>Prénom</th><th>Matricule</th><th>Fonction</th></tr></thead>
+            <tbody id="tbody_${esc(company)}">
+              ${remaining.map(c => `<tr>
+                <td class="name-cell">${esc(c.nom)}</td>
+                <td>${esc(c.prenom)}</td>
+                <td>${esc(c.matricule)}</td>
+                <td class="date-cell">${esc(c.fonction)}</td>
+              </tr>`).join('')}
+            </tbody>
+          </table>
+        </div>
       </div>
     </div>`;
   }).join('');
@@ -132,6 +150,10 @@ function launchDraw() {
 }
 
 async function drawCurrentCompany() {
+  entertainmentMode = true;
+  document.getElementById('modeTrack').classList.remove('mode-off');
+  document.getElementById('modeLabel').textContent = 'Spectacle';
+
   const item = drawQueue[drawQueueIndex];
   const { company, count, pool } = item;
 
@@ -149,9 +171,14 @@ async function drawCurrentCompany() {
   const poolCopy = [...pool];
 
   for (let i = 0; i < count; i++) {
-    const winner = await animateSingleDraw(poolCopy, i + 1, count);
+    const idx = Math.floor(Math.random() * poolCopy.length);
+    const winner = poolCopy[idx];
     winners.push(winner);
-    poolCopy.splice(poolCopy.indexOf(winner), 1);
+    poolCopy.splice(idx, 1);
+
+    if (entertainmentMode) {
+      await animateSingleDraw(pool, winner, i + 1, count);
+    }
 
     const winnerEl = document.createElement('div');
     winnerEl.className = 'drawn-winner-item';
@@ -163,16 +190,34 @@ async function drawCurrentCompany() {
     winnersList.appendChild(winnerEl);
   }
 
+  if (!entertainmentMode) {
+    const drawCard = document.getElementById('drawCard');
+    drawCard.classList.remove('visible');
+  }
+
   DB.addWinners(currentTombola.id, currentTombola.name, company, winners);
   DB.addDrawnIds(currentTombola.id, company, winners.map(w => w.matricule));
 
-  launchConfetti();
+  if (entertainmentMode) launchConfetti();
 
   const isLast = drawQueueIndex >= drawQueue.length - 1;
   if (isLast) {
     document.getElementById('finishBtn').style.display = 'flex';
   } else {
     document.getElementById('nextCompanyBtn').style.display = 'flex';
+  }
+}
+
+function toggleMode() {
+  entertainmentMode = !entertainmentMode;
+  const track = document.getElementById('modeTrack');
+  const label = document.getElementById('modeLabel');
+  if (entertainmentMode) {
+    track.classList.remove('mode-off');
+    label.textContent = 'Spectacle';
+  } else {
+    track.classList.add('mode-off');
+    label.textContent = 'Rapide';
   }
 }
 
@@ -186,7 +231,7 @@ function finishTombola() {
   backToTombolas();
 }
 
-async function animateSingleDraw(pool, winnerNum, totalWinners) {
+async function animateSingleDraw(pool, winner, winnerNum, totalWinners) {
   const drawContent = document.getElementById('drawContent');
   const drawCard = document.getElementById('drawCard');
 
@@ -213,8 +258,6 @@ async function animateSingleDraw(pool, winnerNum, totalWinners) {
     tick();
   });
 
-  const winner = pool[Math.floor(Math.random() * pool.length)];
-
   drawContent.innerHTML = `
     <p class="winner-name-display">${esc(winner.nom)} ${esc(winner.prenom)}</p>
     <div class="winner-details">
@@ -224,8 +267,6 @@ async function animateSingleDraw(pool, winnerNum, totalWinners) {
 
   launchConfetti();
   await new Promise(r => setTimeout(r, 1200));
-
-  return winner;
 }
 
 /* ════════════════════════════════════════
@@ -279,3 +320,33 @@ function esc(str) {
   return String(str || '').replace(/[&<>"']/g, c =>
     ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 }
+
+function toggleCandidateTable(el, company) {
+  const table = document.getElementById(`table_${company}`);
+  if (!table) return;
+  const visible = table.style.display !== 'none';
+  table.style.display = visible ? 'none' : 'block';
+  if (visible) {
+    el.textContent = el.getAttribute('data-label');
+  } else {
+    if (!el.getAttribute('data-label')) el.setAttribute('data-label', el.textContent);
+    el.textContent = 'Masquer';
+  }
+}
+
+function filterTable(input, company) {
+  const query = input.value.toLowerCase();
+  const rows = document.querySelectorAll(`#tbody_${CSS.escape(company)} tr`);
+  rows.forEach(row => {
+    row.style.display = row.textContent.toLowerCase().includes(query) ? '' : 'none';
+  });
+}
+
+window.filterTable = filterTable;
+window.toggleCandidateTable = toggleCandidateTable;
+window.selectTombola = selectTombola;
+window.backToTombolas = backToTombolas;
+window.launchDraw = launchDraw;
+window.drawNextCompany = drawNextCompany;
+window.finishTombola = finishTombola;
+window.toggleMode = toggleMode;

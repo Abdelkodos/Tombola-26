@@ -1295,168 +1295,6 @@
       "nom": "AIT HAMMOU",
       "prenom": "BOUJEMAA",
       "fonction": "CHEF D'EQUIPE C3"
-    },
-    {
-      "matricule": "10202448",
-      "nom": "OUBOUCHIRB",
-      "prenom": "MUSTAPHA",
-      "fonction": "CH PICK-UP"
-    },
-    {
-      "matricule": "10200393",
-      "nom": "ESSABBANE",
-      "prenom": "SAID",
-      "fonction": "MAIN D'OEUVRE"
-    },
-    {
-      "matricule": "10201373",
-      "nom": "EL HARCH",
-      "prenom": "RIDA",
-      "fonction": "MAIN D'OEUVRE"
-    },
-    {
-      "matricule": "10201539",
-      "nom": "OUALI",
-      "prenom": "ISMAIL",
-      "fonction": "MAIN D'OEUVRE"
-    },
-    {
-      "matricule": "10202416",
-      "nom": "OUIAZZANE",
-      "prenom": "HAMID",
-      "fonction": "APLICATEUR D'ASPHALTE"
-    },
-    {
-      "matricule": "10202375",
-      "nom": "EL KIHEL",
-      "prenom": "AHMED",
-      "fonction": "OUVRIER SPECIALISE"
-    },
-    {
-      "matricule": "10202371",
-      "nom": "EL HAMINE",
-      "prenom": "AHMED",
-      "fonction": "CHODRONNIER"
-    },
-    {
-      "matricule": "10203057",
-      "nom": "CHAOUKI",
-      "prenom": "SOUFIANE",
-      "fonction": "CH PICK-UP"
-    },
-    {
-      "matricule": "10202418",
-      "nom": "DANAN",
-      "prenom": "NOURDINE",
-      "fonction": "POMPISTE"
-    },
-    {
-      "matricule": "10202370",
-      "nom": "HADI",
-      "prenom": "YASSINE",
-      "fonction": "TOLIER"
-    },
-    {
-      "matricule": "10202374",
-      "nom": "EL AOUNI",
-      "prenom": "TOUFIQ",
-      "fonction": "OUVRIER SPECIALISE"
-    },
-    {
-      "matricule": "10202373",
-      "nom": "AIT TOUNATE",
-      "prenom": "OUALID",
-      "fonction": "APLICATEUR D'ASPHALTE"
-    },
-    {
-      "matricule": "10202372",
-      "nom": "BENZIRAOUI",
-      "prenom": "MUSTAPHA",
-      "fonction": "APLICATEUR D'ASPHALTE"
-    },
-    {
-      "matricule": "10202237",
-      "nom": "EDDAGHRI",
-      "prenom": "BOUJEMA",
-      "fonction": "AGENT DE LAVAGE"
-    },
-    {
-      "matricule": "10202244",
-      "nom": "NAAMANI",
-      "prenom": "RACHID",
-      "fonction": "SOUDEUR"
-    },
-    {
-      "matricule": "10202246",
-      "nom": "HILALOU",
-      "prenom": "HAKIM",
-      "fonction": "COURSIER"
-    },
-    {
-      "matricule": "10202240",
-      "nom": "HADI",
-      "prenom": "OTMAN",
-      "fonction": "SOUDEUR"
-    },
-    {
-      "matricule": "10202249",
-      "nom": "BOUKHADA",
-      "prenom": "MOHAMED",
-      "fonction": "PNEUMATICIEN"
-    },
-    {
-      "matricule": "10202220",
-      "nom": "MAAROUF",
-      "prenom": "ABDELHAQ",
-      "fonction": "AIDE MECANICIEN"
-    },
-    {
-      "matricule": "10202211",
-      "nom": "SAFFAR",
-      "prenom": "ZAKARIA",
-      "fonction": "MECANICIEN"
-    },
-    {
-      "matricule": "10202216",
-      "nom": "EL KHATYB",
-      "prenom": "AYOUB",
-      "fonction": "ANIMATEUR HSE"
-    },
-    {
-      "matricule": "10202176",
-      "nom": "ELCHI",
-      "prenom": "ASSNAE",
-      "fonction": "FEMME DE MENAGE"
-    },
-    {
-      "matricule": "10202175",
-      "nom": "OURHAHOU",
-      "prenom": "MOHAMED",
-      "fonction": "COMPTABLE DE CHANTIER"
-    },
-    {
-      "matricule": "10202105",
-      "nom": "MORAD",
-      "prenom": "NOUREDDINE",
-      "fonction": "AIDE MECANICIEN"
-    },
-    {
-      "matricule": "10202026",
-      "nom": "MHAIDRA",
-      "prenom": "MOHAMMED",
-      "fonction": "CHEF D'EQUIPE"
-    },
-    {
-      "matricule": "10202030",
-      "nom": "SIFENNASR",
-      "prenom": "OTMAN",
-      "fonction": "COMPTABLE DE CHANTIER"
-    },
-    {
-      "matricule": "10200174",
-      "nom": "KHABAMOU",
-      "prenom": "ABDELAZIZ",
-      "fonction": "COMPTABLE DE CHANTIER C2"
     }
   ],
   "SUD EMPLOI NORD": [
@@ -2011,6 +1849,168 @@
       "nom": "AGOUZOUL",
       "prenom": "ABDERRAHMANE",
       "fonction": "MAGASINIER"
+    },
+    {
+      "matricule": "10202448",
+      "nom": "OUBOUCHIRB",
+      "prenom": "MUSTAPHA",
+      "fonction": "CH PICK-UP"
+    },
+    {
+      "matricule": "10200393",
+      "nom": "ESSABBANE",
+      "prenom": "SAID",
+      "fonction": "MAIN D'OEUVRE"
+    },
+    {
+      "matricule": "10201373",
+      "nom": "EL HARCH",
+      "prenom": "RIDA",
+      "fonction": "MAIN D'OEUVRE"
+    },
+    {
+      "matricule": "10201539",
+      "nom": "OUALI",
+      "prenom": "ISMAIL",
+      "fonction": "MAIN D'OEUVRE"
+    },
+    {
+      "matricule": "10202416",
+      "nom": "OUIAZZANE",
+      "prenom": "HAMID",
+      "fonction": "APLICATEUR D'ASPHALTE"
+    },
+    {
+      "matricule": "10202375",
+      "nom": "EL KIHEL",
+      "prenom": "AHMED",
+      "fonction": "OUVRIER SPECIALISE"
+    },
+    {
+      "matricule": "10202371",
+      "nom": "EL HAMINE",
+      "prenom": "AHMED",
+      "fonction": "CHODRONNIER"
+    },
+    {
+      "matricule": "10203057",
+      "nom": "CHAOUKI",
+      "prenom": "SOUFIANE",
+      "fonction": "CH PICK-UP"
+    },
+    {
+      "matricule": "10202418",
+      "nom": "DANAN",
+      "prenom": "NOURDINE",
+      "fonction": "POMPISTE"
+    },
+    {
+      "matricule": "10202370",
+      "nom": "HADI",
+      "prenom": "YASSINE",
+      "fonction": "TOLIER"
+    },
+    {
+      "matricule": "10202374",
+      "nom": "EL AOUNI",
+      "prenom": "TOUFIQ",
+      "fonction": "OUVRIER SPECIALISE"
+    },
+    {
+      "matricule": "10202373",
+      "nom": "AIT TOUNATE",
+      "prenom": "OUALID",
+      "fonction": "APLICATEUR D'ASPHALTE"
+    },
+    {
+      "matricule": "10202372",
+      "nom": "BENZIRAOUI",
+      "prenom": "MUSTAPHA",
+      "fonction": "APLICATEUR D'ASPHALTE"
+    },
+    {
+      "matricule": "10202237",
+      "nom": "EDDAGHRI",
+      "prenom": "BOUJEMA",
+      "fonction": "AGENT DE LAVAGE"
+    },
+    {
+      "matricule": "10202244",
+      "nom": "NAAMANI",
+      "prenom": "RACHID",
+      "fonction": "SOUDEUR"
+    },
+    {
+      "matricule": "10202246",
+      "nom": "HILALOU",
+      "prenom": "HAKIM",
+      "fonction": "COURSIER"
+    },
+    {
+      "matricule": "10202240",
+      "nom": "HADI",
+      "prenom": "OTMAN",
+      "fonction": "SOUDEUR"
+    },
+    {
+      "matricule": "10202249",
+      "nom": "BOUKHADA",
+      "prenom": "MOHAMED",
+      "fonction": "PNEUMATICIEN"
+    },
+    {
+      "matricule": "10202220",
+      "nom": "MAAROUF",
+      "prenom": "ABDELHAQ",
+      "fonction": "AIDE MECANICIEN"
+    },
+    {
+      "matricule": "10202211",
+      "nom": "SAFFAR",
+      "prenom": "ZAKARIA",
+      "fonction": "MECANICIEN"
+    },
+    {
+      "matricule": "10202216",
+      "nom": "EL KHATYB",
+      "prenom": "AYOUB",
+      "fonction": "ANIMATEUR HSE"
+    },
+    {
+      "matricule": "10202176",
+      "nom": "ELCHI",
+      "prenom": "ASSNAE",
+      "fonction": "FEMME DE MENAGE"
+    },
+    {
+      "matricule": "10202175",
+      "nom": "OURHAHOU",
+      "prenom": "MOHAMED",
+      "fonction": "COMPTABLE DE CHANTIER"
+    },
+    {
+      "matricule": "10202105",
+      "nom": "MORAD",
+      "prenom": "NOUREDDINE",
+      "fonction": "AIDE MECANICIEN"
+    },
+    {
+      "matricule": "10202026",
+      "nom": "MHAIDRA",
+      "prenom": "MOHAMMED",
+      "fonction": "CHEF D'EQUIPE"
+    },
+    {
+      "matricule": "10202030",
+      "nom": "SIFENNASR",
+      "prenom": "OTMAN",
+      "fonction": "COMPTABLE DE CHANTIER"
+    },
+    {
+      "matricule": "10200174",
+      "nom": "KHABAMOU",
+      "prenom": "ABDELAZIZ",
+      "fonction": "COMPTABLE DE CHANTIER C2"
     }
   ],
   "GROUPE MOJAZINE": [

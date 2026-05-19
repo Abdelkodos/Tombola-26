@@ -954,11 +954,127 @@ body::before {
   border-color: transparent !important;
 }
 
+.clickable-more {
+  cursor: pointer;
+  border-color: var(--gold-muted) !important;
+  color: var(--gold) !important;
+  background: #FBF4E5 !important;
+  transition: var(--transition);
+}
+
+.clickable-more:hover {
+  background: var(--gold) !important;
+  color: var(--white) !important;
+}
+
+.candidate-table-wrap {
+  margin-top: 1rem;
+  border: 1px solid var(--cream-mid);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.table-search-input {
+  width: 100%;
+  padding: 10px 14px;
+  border: none;
+  border-bottom: 1px solid var(--cream-mid);
+  background: var(--cream);
+  font-family: var(--font-body);
+  font-size: 0.84rem;
+  color: var(--charcoal);
+  outline: none;
+  transition: var(--transition);
+}
+
+.table-search-input::placeholder { color: var(--charcoal-lt); }
+
+.table-search-input:focus {
+  background: var(--white);
+  border-bottom-color: var(--gold-muted);
+}
+
+.candidate-table-scroll {
+  max-height: 300px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: var(--cream-mid) transparent;
+}
+
+.candidate-full-table {
+  margin: 0;
+  font-size: 0.82rem;
+}
+
+.candidate-full-table th {
+  position: sticky;
+  top: 0;
+  background: var(--white);
+  z-index: 1;
+}
+
 .drawn-badge {
   background: #FBF4E5 !important;
   color: var(--gold) !important;
   border-color: rgba(184,137,42,0.2) !important;
   margin-left: 6px;
+}
+
+/* ── Draw Top Bar & Mode Toggle ───────────────────────────── */
+.draw-top-bar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.mode-toggle {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  user-select: none;
+  flex-shrink: 0;
+  padding-top: 0.4rem;
+}
+
+.mode-toggle-track {
+  width: 44px;
+  height: 24px;
+  border-radius: 12px;
+  background: var(--gold);
+  position: relative;
+  transition: background 0.25s ease;
+}
+
+.mode-toggle-track.mode-off {
+  background: var(--charcoal-lt);
+}
+
+.mode-toggle-thumb {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--white);
+  position: absolute;
+  top: 3px;
+  left: 23px;
+  transition: left 0.25s ease;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+}
+
+.mode-toggle-track.mode-off .mode-toggle-thumb {
+  left: 3px;
+}
+
+.mode-toggle-label {
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--charcoal-mid);
+  min-width: 62px;
 }
 
 /* ── Draw Step ─────────────────────────────────────────────── */

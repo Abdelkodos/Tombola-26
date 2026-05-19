@@ -17,7 +17,7 @@
 
     <header class="site-header">
       <div class="logo-area">
-        <img class="logo-img" src="logo.png" width="48" alt="Logo Abrar" />
+        <img class="logo-img" src="logo.png" width="128" alt="Logo Abrar" />
         <div class="logo-divider"></div>
         <span class="logo-label">Tirage au Sort</span>
       </div>
@@ -54,9 +54,17 @@
 
     <!-- ③ Draw in progress (hidden initially) -->
     <div id="stepDraw" style="display:none">
-      <div class="page-title">
-        <h1 id="drawTitle"></h1>
-        <p id="drawSubtitle"></p>
+      <div class="draw-top-bar">
+        <div class="page-title" style="margin-bottom:0">
+          <h1 id="drawTitle"></h1>
+          <p id="drawSubtitle"></p>
+        </div>
+        <div class="mode-toggle" onclick="toggleMode()">
+          <div class="mode-toggle-track" id="modeTrack">
+            <div class="mode-toggle-thumb" id="modeThumb"></div>
+          </div>
+          <span class="mode-toggle-label" id="modeLabel">Spectacle</span>
+        </div>
       </div>
       <div class="winner-card visible" id="drawCard">
         <p class="winner-eyebrow" id="drawEyebrow"></p>
