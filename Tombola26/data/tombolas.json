@@ -1,0 +1,17 @@
+[
+  {
+    "id": "sessen",
+    "name": "Tombola Omra",
+    "file": "data/sessen.json"
+  },
+  {
+    "id": "moutons",
+    "name": "Tombola Moutons",
+    "file": "data/moutons.json"
+  },
+  {
+    "id": "cassociaux",
+    "name": "Tombola Cas Sociaux",
+    "file": "data/cassociaux.json"
+  }
+]

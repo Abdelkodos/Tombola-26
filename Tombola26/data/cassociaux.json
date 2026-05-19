@@ -1,0 +1,46 @@
+{
+  "CAS SOCIAUX": [
+    {
+      "matricule": "20000357",
+      "nom": "AIT NACEUR",
+      "prenom": "MOHAMED",
+      "fonction": "COURSIER"
+    },
+    {
+      "matricule": "10101048",
+      "nom": "GUESSAA",
+      "prenom": "RADI",
+      "fonction": "COND BULLDOZER"
+    },
+    {
+      "matricule": "10102878",
+      "nom": "M'HANNI",
+      "prenom": "YASSINE",
+      "fonction": "MECANICIEN CAMION"
+    },
+    {
+      "matricule": "10104082",
+      "nom": "OUHASSOU",
+      "prenom": "LAHCEN",
+      "fonction": "CH. CAMION 4*2"
+    },
+    {
+      "matricule": "journalies",
+      "nom": "DIDI",
+      "prenom": "OUAKRIM",
+      "fonction": "MANŒUVRE"
+    },
+    {
+      "matricule": "10102051",
+      "nom": "AIT LAHCEN",
+      "prenom": "ABDELLAH",
+      "fonction": "OUVRIER SPECIALISE"
+    },
+    {
+      "matricule": "journalies",
+      "nom": "MORAD",
+      "prenom": "SAID",
+      "fonction": "MANŒUVRE"
+    }
+  ]
+}

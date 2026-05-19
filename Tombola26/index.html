@@ -1,158 +1,82 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Abrar · Tirage au Sort</title>
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css" />
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 </head>
+
 <body>
 
-<div id="confettiContainer" class="confetti-container"></div>
+  <div id="confettiContainer" class="confetti-container"></div>
 
-<div class="page-wrapper">
+  <div class="page-wrapper">
 
-  <!-- En-tête -->
-  <header class="site-header">
-    <div class="logo-area">
-      <img class="logo-img" src="data:image/png;base64,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" alt="Logo Abrar" />
-      <div class="logo-divider"></div>
-      <span class="logo-label">Tirage au Sort</span>
-    </div>
-    <nav class="header-nav">
-      <a class="nav-link active" href="index.html">Tirage</a>
-      <a class="nav-link" href="history.html">Historique</a>
-    </nav>
-  </header>
-
-  <!-- Titre -->
-  <div class="page-title">
-    <h1>Tirer un <em>Gagnant</em></h1>
-    <p>Importer · Filtrer · Tirer · Célébrer</p>
-  </div>
-
-  <!-- ① Importation -->
-  <div class="card">
-    <p class="card-title">Importer les Participants</p>
-    <div class="upload-zone" id="dropZone">
-      <input type="file" id="fileInput" accept=".xlsx,.xls,.csv" />
-      <div class="upload-icon"><i class="ti ti-file-spreadsheet"></i></div>
-      <p>Déposez votre fichier Excel ou CSV ici, ou <strong>parcourez</strong></p>
-      <p class="upload-hint">.xlsx · .xls · .csv &mdash; toutes les colonnes sont lues, la première colonne = nom</p>
-    </div>
-  </div>
-
-  <!-- ① bis Sélection des feuilles -->
-  <div class="card" id="sheetPickerPanel" style="display:none">
-    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:1.2rem;">
-      <p class="card-title" style="margin-bottom:0">
-        Feuilles à Importer
-        <span style="font-family:var(--font-body);font-size:0.72rem;font-style:normal;color:var(--charcoal-lt);letter-spacing:.06em;text-transform:uppercase;margin-left:4px">plusieurs feuilles détectées</span>
-      </p>
-      <div style="display:flex;gap:0.4rem;">
-        <button class="btn btn-ghost" onclick="document.querySelectorAll('.sheet-cb').forEach(cb=>cb.checked=true)">
-          <i class="ti ti-checks"></i> Tout
-        </button>
-        <button class="btn btn-ghost" onclick="document.querySelectorAll('.sheet-cb').forEach(cb=>cb.checked=false)">
-          <i class="ti ti-square"></i> Aucun
-        </button>
+    <header class="site-header">
+      <div class="logo-area">
+        <img class="logo-img" src="logo.png" width="48" alt="Logo Abrar" />
+        <div class="logo-divider"></div>
+        <span class="logo-label">Tirage au Sort</span>
       </div>
-    </div>
-    <div id="sheetCheckboxList" class="display-cols-panel"></div>
-    <div style="margin-top:1rem;">
-      <button class="btn btn-gold" onclick="confirmSheetImport()">
-        <i class="ti ti-file-import"></i> Importer les feuilles sélectionnées
-      </button>
-    </div>
-  </div>
+      <nav class="header-nav">
+        <a class="nav-link active" href="index.html">Tirage</a>
+        <a class="nav-link" href="history.html">Historique</a>
+      </nav>
+    </header>
 
-  <!-- ② Colonnes à afficher -->
-  <div class="card">
-    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:1.2rem;">
-      <p class="card-title" style="margin-bottom:0">Colonnes à Afficher <span style="font-family:var(--font-body);font-size:0.72rem;font-style:normal;color:var(--charcoal-lt);letter-spacing:.06em;text-transform:uppercase;margin-left:4px">sur la carte gagnant</span></p>
-      <div style="display:flex;gap:0.4rem;">
-        <button class="btn btn-ghost" onclick="selectAllDisplayCols()"><i class="ti ti-checks"></i> Tout</button>
-        <button class="btn btn-ghost" onclick="deselectAllDisplayCols()"><i class="ti ti-square"></i> Aucun</button>
+    <!-- ① Tombola Selection -->
+    <div id="stepTombola">
+      <div class="page-title">
+        <h1>Choisir une <em>Tombola</em></h1>
+        <p>Sélectionnez la tombola pour commencer le tirage</p>
       </div>
+      <div id="tombolaGrid" class="tombola-grid"></div>
     </div>
-    <div id="displayColsPanel" class="display-cols-panel">
-      <p class="cond-empty">Aucune colonne disponible — importez d'abord un fichier.</p>
+
+    <!-- ② Company Setup (hidden initially) -->
+    <div id="stepCompanies" style="display:none">
+      <div class="page-title">
+        <h1 id="tombolaTitle"></h1>
+        <p>Définissez le nombre de gagnants par société, puis lancez le tirage</p>
+      </div>
+      <button class="btn btn-ghost" onclick="backToTombolas()" style="margin-bottom:1.5rem">
+        <i class="ti ti-arrow-left"></i> Retour aux tombolas
+      </button>
+      <div id="companyCards"></div>
+      <div class="gold-divider"></div>
+      <button class="btn-draw" id="launchAllBtn" onclick="launchDraw()">
+        <i class="ti ti-confetti"></i> Lancer le Tirage
+      </button>
     </div>
+
+    <!-- ③ Draw in progress (hidden initially) -->
+    <div id="stepDraw" style="display:none">
+      <div class="page-title">
+        <h1 id="drawTitle"></h1>
+        <p id="drawSubtitle"></p>
+      </div>
+      <div class="winner-card visible" id="drawCard">
+        <p class="winner-eyebrow" id="drawEyebrow"></p>
+        <div id="drawContent">
+          <p class="rolling-text">· · ·</p>
+        </div>
+      </div>
+      <div id="drawWinnersList" class="draw-winners-list"></div>
+      <button class="btn-draw" id="nextCompanyBtn" style="display:none" onclick="drawNextCompany()">
+        <i class="ti ti-arrow-right"></i> Société Suivante
+      </button>
+      <button class="btn-draw" id="finishBtn" style="display:none" onclick="finishTombola()">
+        <i class="ti ti-check"></i> Terminer cette Tombola
+      </button>
+    </div>
+
   </div>
 
-  <!-- ③ Conditions d'éligibilité -->
-  <div class="card">
-    <p class="card-title">Conditions d'Éligibilité <span style="font-family:var(--font-body);font-size:0.72rem;font-style:normal;color:var(--charcoal-lt);letter-spacing:.06em;text-transform:uppercase;margin-left:4px">TOUTES requises</span></p>
-
-    <div class="cond-builder">
-      <select class="cond-select" id="condColumn">
-        <option value="">— Colonne —</option>
-      </select>
-      <select class="cond-select cond-op-select" id="condOperator">
-        <option value=">=">&gt;= (au moins)</option>
-        <option value="<=">&lt;= (au plus)</option>
-        <option value=">">&gt; (supérieur à)</option>
-        <option value="<">&lt; (inférieur à)</option>
-        <option value="=">= (égal à)</option>
-        <option value="!=">≠ (différent de)</option>
-        <option value="contains">contient</option>
-      </select>
-      <input class="cond-input" type="text" id="condValue" placeholder="Valeur…" />
-      <button class="btn btn-gold" onclick="addCondition()">
-        <i class="ti ti-plus"></i> Ajouter
-      </button>
-      <button class="btn btn-ghost" onclick="clearAllConditions()" title="Effacer toutes les conditions">
-        <i class="ti ti-trash"></i>
-      </button>
-    </div>
-
-    <div class="cond-list" id="conditionList">
-      <p class="cond-empty">Aucune condition — tous les participants sont éligibles.</p>
-    </div>
-  </div>
-
-  <!-- ④ Participants éligibles -->
-  <div class="card">
-    <div id="participantsBarMain" class="participants-bar" style="display:none">
-      <span id="countBadge" class="count-badge">0 participant</span>
-      <button class="btn btn-ghost" onclick="clearParticipants()">
-        <i class="ti ti-trash"></i> Tout effacer
-      </button>
-    </div>
-    <div id="nameGridMain" class="name-grid" style="display:none"></div>
-    <div id="filteredOutNotice" class="filtered-out-notice"></div>
-    <div id="emptyRaffle" class="empty-state">
-      <div class="empty-icon"><i class="ti ti-users"></i></div>
-      <p>Aucun participant.<br>Importez un fichier ci-dessus.</p>
-    </div>
-  </div>
-
-  <div class="gold-divider"></div>
-
-  <!-- Bouton de tirage -->
-  <button class="btn-draw" id="drawBtn" disabled onclick="drawWinner()">
-    <i class="ti ti-confetti"></i> Tirer un Gagnant
-  </button>
-
-  <!-- Affichage du gagnant -->
-  <div class="winner-card" id="winnerCard">
-    <p class="winner-eyebrow">&#9733; Gagnant &#9733;</p>
-    <div id="winnerContent"></div>
-    <div class="winner-actions">
-      <button class="btn" onclick="drawWinner()">
-        <i class="ti ti-refresh"></i> Retirer
-      </button>
-      <button class="btn btn-remove-winner" onclick="removeAndRedraw()">
-        <i class="ti ti-user-minus"></i> Éliminer &amp; Retirer
-      </button>
-    </div>
-  </div>
-
-</div>
-
-<script src="db.js"></script>
-<script src="app.js"></script>
+  <script src="db.js"></script>
+  <script src="app.js"></script>
 </body>
+
 </html>

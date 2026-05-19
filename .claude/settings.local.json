@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell *)",
+      "PowerShell(\\(Get-Content 'C:\\\\Users\\\\User\\\\workspace\\\\Tombola-26\\\\SESSEN.json' | ConvertFrom-Json | Get-Member -MemberType NoteProperty\\).Name)",
+      "PowerShell($j = Get-Content 'C:\\\\Users\\\\User\\\\workspace\\\\Tombola-26\\\\SESSEN.json' | ConvertFrom-Json; foreach \\($key in \\($j | Get-Member -MemberType NoteProperty\\).Name\\) { $arr = $j.$key; Write-Output \"${key}: $\\($arr.Count\\) entries\" })",
+      "PowerShell($j = Get-Content 'C:\\\\Users\\\\User\\\\workspace\\\\Tombola-26\\\\moutons.json' | ConvertFrom-Json; foreach \\($key in \\($j | Get-Member -MemberType NoteProperty\\).Name\\) { $arr = $j.$key; Write-Output \"${key}: $\\($arr.Count\\) entries\" })",
+      "PowerShell($j = Get-Content 'C:\\\\Users\\\\User\\\\workspace\\\\Tombola-26\\\\cassociaux.json' | ConvertFrom-Json; foreach \\($key in \\($j | Get-Member -MemberType NoteProperty\\).Name\\) { $arr = $j.$key; Write-Output \"${key}: $\\($arr.Count\\) entries\" })",
+      "PowerShell($j = Get-Content 'C:\\\\Users\\\\User\\\\workspace\\\\Tombola-26\\\\SESSEN.json' | ConvertFrom-Json; foreach \\($key in \\($j | Get-Member -MemberType NoteProperty\\).Name\\) { $first = $j.$key[0]; $props = \\($first | Get-Member -MemberType NoteProperty\\).Name -join ', '; Write-Output \"${key}: $props\" })",
+      "PowerShell($j = Get-Content 'C:\\\\Users\\\\User\\\\workspace\\\\Tombola-26\\\\moutons.json' | ConvertFrom-Json; foreach \\($key in \\($j | Get-Member -MemberType NoteProperty\\).Name\\) { $first = $j.$key[0]; $props = \\($first | Get-Member -MemberType NoteProperty\\).Name -join ', '; Write-Output \"${key}: $props\" })",
+      "PowerShell($j = Get-Content 'C:\\\\Users\\\\User\\\\workspace\\\\Tombola-26\\\\Tombola26\\\\data\\\\sessen.json' | ConvertFrom-Json; $j.'GROUPE MOJAZINE'[0..2] | ConvertTo-Json)",
+      "PowerShell($j = Get-Content 'C:\\\\Users\\\\User\\\\workspace\\\\Tombola-26\\\\Tombola26\\\\data\\\\moutons.json' | ConvertFrom-Json; $j.'SES'[0..2] | ConvertTo-Json)",
+      "PowerShell(node C:\\\\Users\\\\User\\\\workspace\\\\Tombola-26\\\\normalize.js)",
+      "PowerShell(Get-Process *)",
+      "PowerShell(npx vite --port 3000)",
+      "PowerShell(Copy-Item *)"
+    ]
+  }
+}

@@ -1,0 +1,2486 @@
+{
+  "SES": [
+    {
+      "Matricule": "MATRICULE",
+      "Nom": "NOM",
+      "prenom": "PRENOM",
+      "fonction": "FONCTION"
+    },
+    {
+      "Matricule": 10100637,
+      "Nom": "EL MOUSSAOUI",
+      "prenom": " YOUSSEF",
+      "fonction": "MAIN D'OEUVRE"
+    },
+    {
+      "Matricule": 10100654,
+      "Nom": "EL HENDAOUI",
+      "prenom": "AZEDDINE",
+      "fonction": "GARDIEN"
+    },
+    {
+      "Matricule": 10100171,
+      "Nom": "OUGHZIF ",
+      "prenom": "OTHMANE ",
+      "fonction": "COURSIER"
+    },
+    {
+      "Matricule": 10102456,
+      "Nom": "SLIMANI  ",
+      "prenom": "NOUR ED-DINE",
+      "fonction": "CH PICK-UP"
+    },
+    {
+      "Matricule": 10101887,
+      "Nom": "TOUATI ",
+      "prenom": " OTHMANE",
+      "fonction": "CH MINI-BUS"
+    },
+    {
+      "Matricule": 10102130,
+      "Nom": "AQARQAJ ",
+      "prenom": "MOHAMED",
+      "fonction": "AIDE COMPTABLE"
+    },
+    {
+      "Matricule": 10102122,
+      "Nom": "BENAOUIDATE",
+      "prenom": "ABDERRAHMAN",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10102943,
+      "Nom": "AIT RAHAL ",
+      "prenom": "ABDERRAHIM",
+      "fonction": "CH MINI BUS"
+    },
+    {
+      "Matricule": 10102807,
+      "Nom": "AIT BOUAZZA ",
+      "prenom": "ABDERRAHMANE",
+      "fonction": "CH PICK-UP"
+    },
+    {
+      "Matricule": 10103535,
+      "Nom": "OUHMAJOU",
+      "prenom": "ES-SAID",
+      "fonction": "BITUMINEUX"
+    },
+    {
+      "Matricule": 10103521,
+      "Nom": "BARDIZ ",
+      "prenom": "MOHAMED",
+      "fonction": "COMPTABLE DE CHANTIER"
+    },
+    {
+      "Matricule": 10103441,
+      "Nom": "OULHAJ",
+      "prenom": " SLIMANE",
+      "fonction": "OUVRIER SPECIALISE"
+    },
+    {
+      "Matricule": 10100001,
+      "Nom": "SALIB ",
+      "prenom": "REDOUANE ",
+      "fonction": "OUVRIER SPECIALISE"
+    },
+    {
+      "Matricule": 10102537,
+      "Nom": "EL-ASADY ",
+      "prenom": "AZIZ",
+      "fonction": "CH PICK-UP"
+    },
+    {
+      "Matricule": 10102995,
+      "Nom": "BABORI ",
+      "prenom": "SLIMANE",
+      "fonction": "CH PICK-UP"
+    },
+    {
+      "Matricule": 10102672,
+      "Nom": "ES-SAIDY ",
+      "prenom": "KHALID",
+      "fonction": "CH PICK-UP"
+    },
+    {
+      "Matricule": 10102670,
+      "Nom": "GHANDOURI ",
+      "prenom": "YOUSSEF ",
+      "fonction": "CH PICK-UP"
+    },
+    {
+      "Matricule": 10102685,
+      "Nom": "BOUIFENZI ",
+      "prenom": " BOUHCIN",
+      "fonction": "CH PICK-UP"
+    },
+    {
+      "Matricule": 10100153,
+      "Nom": "OUSSAKRI ",
+      "prenom": "RADOUAN",
+      "fonction": "CH PICK-UP"
+    },
+    {
+      "Matricule": 10100152,
+      "Nom": "EL MOUNGHANIZI ",
+      "prenom": "ABDERRAZAK ",
+      "fonction": "CH PICK-UP"
+    },
+    {
+      "Matricule": 10101468,
+      "Nom": "KENZI ",
+      "prenom": " MOULAY ABDESLAM",
+      "fonction": "CH PICK-UP"
+    },
+    {
+      "Matricule": 10100811,
+      "Nom": "MASOUDI ",
+      "prenom": "LAHCEN",
+      "fonction": "CH MINI-BUS"
+    },
+    {
+      "Matricule": 10101264,
+      "Nom": "LABZIOUI ",
+      "prenom": "BENNASSER",
+      "fonction": "CH PICK-UP"
+    },
+    {
+      "Matricule": 10101994,
+      "Nom": "EL MANJOUR",
+      "prenom": "LAHCEN",
+      "fonction": "MAIN D'OEUVRE"
+    },
+    {
+      "Matricule": 10102051,
+      "Nom": "AIT LAHCEN",
+      "prenom": "ABDELLAH",
+      "fonction": "OUVRIER SPECIALISE"
+    },
+    {
+      "Matricule": 10101582,
+      "Nom": "AMERGHAD",
+      "prenom": "ADDI",
+      "fonction": "GRAVILLONEUR"
+    },
+    {
+      "Matricule": 10100003,
+      "Nom": "ERRADI ",
+      "prenom": "RACHID",
+      "fonction": "OUVRIER SPECIALISE"
+    },
+    {
+      "Matricule": 10103381,
+      "Nom": "EL KIRAOUI ",
+      "prenom": "ADIL",
+      "fonction": "GRAISSEUR"
+    },
+    {
+      "Matricule": 10102953,
+      "Nom": "ANNOUZ ",
+      "prenom": "HASSAN",
+      "fonction": "OUVRIER SPECIALISE"
+    },
+    {
+      "Matricule": 10101571,
+      "Nom": " EDDAFAA ",
+      "prenom": " ACHRAF ",
+      "fonction": "OUVRIER SPECIALISE"
+    },
+    {
+      "Matricule": 10100004,
+      "Nom": "NOURI ",
+      "prenom": "ATIK ",
+      "fonction": "OUVRIER SPECIALISE"
+    },
+    {
+      "Matricule": 10101359,
+      "Nom": "AOMAR ",
+      "prenom": "EL AARJAOUI ",
+      "fonction": "M.O POSTE DENROBAGE"
+    },
+    {
+      "Matricule": 10100747,
+      "Nom": "MAKAOUI ",
+      "prenom": "BASSIDI",
+      "fonction": "OUVRIER SPECIALISE"
+    },
+    {
+      "Matricule": 10102803,
+      "Nom": "HOUKAD ",
+      "prenom": "BRAHIM",
+      "fonction": "CH PICK-UP"
+    },
+    {
+      "Matricule": 10102664,
+      "Nom": "SKARB ",
+      "prenom": "RADOUAN",
+      "fonction": "CH PICK-UP"
+    },
+    {
+      "Matricule": 10103442,
+      "Nom": "YAICH ",
+      "prenom": "MOAAD",
+      "fonction": "OUVRIER SPECIALISE"
+    },
+    {
+      "Matricule": 10100695,
+      "Nom": " BENAOUIDATE ",
+      "prenom": "YASSINE",
+      "fonction": "OPERATEUR DE MACHINE DE CONCASSAGE"
+    },
+    {
+      "Matricule": 10103499,
+      "Nom": "EL KHALFAOUI ",
+      "prenom": "ABDELLATIF",
+      "fonction": "REVATAILLEUR"
+    },
+    {
+      "Matricule": 10100727,
+      "Nom": "GHALLAY ",
+      "prenom": "MY YOUSSEF",
+      "fonction": "AIDE MECANICIEN CONFIRME"
+    },
+    {
+      "Matricule": 10100634,
+      "Nom": "HAMMI ",
+      "prenom": " ABDELKRIM",
+      "fonction": "COMPTABLE DE CHANTIER C2"
+    },
+    {
+      "Matricule": 10100617,
+      "Nom": "EL HABBAY ",
+      "prenom": "ABDELAZIZ",
+      "fonction": "REGLEUR FINISSEUR"
+    },
+    {
+      "Matricule": 10100550,
+      "Nom": "OUFDJIKH",
+      "prenom": "LAHCEN ",
+      "fonction": "CHAUFFEUR PETIT CAMION"
+    },
+    {
+      "Matricule": 10100646,
+      "Nom": "TLAITMAS ",
+      "prenom": "ABDERRAHIM",
+      "fonction": "CHAUFFEUR PETIT CAMION"
+    },
+    {
+      "Matricule": 10103301,
+      "Nom": "AIT LAHCEN ",
+      "prenom": "HASSAN",
+      "fonction": "CHAUFFEUR PETIT CAMION"
+    },
+    {
+      "Matricule": 10103304,
+      "Nom": "NAKIB ",
+      "prenom": "AHMED",
+      "fonction": "CHAUFFEUR PETIT CAMION"
+    },
+    {
+      "Matricule": 10102936,
+      "Nom": "AKDIM ",
+      "prenom": "DRISS",
+      "fonction": "OUVIER QALIFIER"
+    },
+    {
+      "Matricule": 10102651,
+      "Nom": "ERREJRAJI ",
+      "prenom": "EL BACHIR",
+      "fonction": "CHAUFFEUR PETIT CAMION"
+    },
+    {
+      "Matricule": 10102675,
+      "Nom": "BOUTFIDY ",
+      "prenom": "MOHAMED",
+      "fonction": "CHAUFFEUR PETIT CAMION"
+    },
+    {
+      "Matricule": 10102539,
+      "Nom": "BOUMAHDI ",
+      "prenom": "OULAID",
+      "fonction": "CHAUFFEUR PETIT CAMION"
+    },
+    {
+      "Matricule": 10101889,
+      "Nom": "KARAM ",
+      "prenom": "MOHAMAD ",
+      "fonction": "CHAUFFEUR PETIT CAMION"
+    },
+    {
+      "Matricule": 10100176,
+      "Nom": "EL KADIRI ",
+      "prenom": "ZAID ",
+      "fonction": "CONDUCTEUR GRAVENEUSE"
+    },
+    {
+      "Matricule": 10101140,
+      "Nom": "ABOUKAL ",
+      "prenom": "MOHAMED",
+      "fonction": "CHAUFFEUR PETIT CAMION"
+    },
+    {
+      "Matricule": 10100935,
+      "Nom": "OUAAZZI ",
+      "prenom": "MOHAMED",
+      "fonction": "CHAUFFEUR PETIT CAMION"
+    },
+    {
+      "Matricule": 10102992,
+      "Nom": "AMZIL  ",
+      "prenom": "MOHAMED",
+      "fonction": "COMPTABLE DE CHANTIER"
+    },
+    {
+      "Matricule": 10102053,
+      "Nom": "BOUAAFIA",
+      "prenom": "YOUSSEF",
+      "fonction": "REGLEUR"
+    },
+    {
+      "Matricule": 10101978,
+      "Nom": "AARAAR ",
+      "prenom": "KHALID ",
+      "fonction": "GRAISSEUR REPONDEUSE"
+    },
+    {
+      "Matricule": 10103080,
+      "Nom": "EL GHALI ",
+      "prenom": "ALLAL",
+      "fonction": "PNEUMATICIEN"
+    },
+    {
+      "Matricule": 10101251,
+      "Nom": "ZOUBAI",
+      "prenom": "AISSAM",
+      "fonction": "COMPTABLE DE CHANTIER"
+    },
+    {
+      "Matricule": 10102356,
+      "Nom": "TAGHRIT",
+      "prenom": " JAMAL ",
+      "fonction": "GRAISSEUR REPONDEUSE"
+    },
+    {
+      "Matricule": 10103382,
+      "Nom": "HAMIDDOUCH ",
+      "prenom": "ASSOU",
+      "fonction": "GRAISSEUR"
+    },
+    {
+      "Matricule": 10103035,
+      "Nom": "SELLOUK ",
+      "prenom": "RACHID",
+      "fonction": "AIDE CHEF POSTE"
+    },
+    {
+      "Matricule": 10102682,
+      "Nom": "AIT BENALI ",
+      "prenom": "MUSTAPHA",
+      "fonction": "POMPISTE"
+    },
+    {
+      "Matricule": 10103445,
+      "Nom": "HAOUAS ",
+      "prenom": "MOHAMMED",
+      "fonction": "REGLEUR"
+    },
+    {
+      "Matricule": 10101268,
+      "Nom": "SAHI ",
+      "prenom": "HASSAN",
+      "fonction": "MECANICIEN"
+    },
+    {
+      "Matricule": 10103410,
+      "Nom": "AGNACHA ",
+      "prenom": "ABDELHAK",
+      "fonction": "OPERATEUR"
+    },
+    {
+      "Matricule": 10101009,
+      "Nom": "ET-TABBAA ",
+      "prenom": "AHMED",
+      "fonction": "CHEF D'EQUIPE C3"
+    },
+    {
+      "Matricule": 10101537,
+      "Nom": "EL BAQQAR ",
+      "prenom": "BENAISSA",
+      "fonction": "REGLEUR"
+    },
+    {
+      "Matricule": 10102013,
+      "Nom": "AHANSAL",
+      "prenom": "MOHAMED",
+      "fonction": "CHEF D'EQUIPE C3"
+    },
+    {
+      "Matricule": 10103334,
+      "Nom": "BOUNOUADER ",
+      "prenom": "OUAIL",
+      "fonction": "MAIN D'OEUVRE"
+    },
+    {
+      "Matricule": 10102079,
+      "Nom": "NAJI",
+      "prenom": "OUADIA",
+      "fonction": "COURSIER"
+    },
+    {
+      "Matricule": 10100793,
+      "Nom": "DABICH ",
+      "prenom": "LAHCEN ",
+      "fonction": "AIDE MECANICIEN"
+    },
+    {
+      "Matricule": 10101179,
+      "Nom": "LOUADRHIRI ",
+      "prenom": "MHAMED",
+      "fonction": "CONDUCTEUR  BULLDOZER"
+    },
+    {
+      "Matricule": 10103443,
+      "Nom": "AHEDDAD",
+      "prenom": " YOUNESS",
+      "fonction": "ELECTRICIEN"
+    },
+    {
+      "Matricule": 10100579,
+      "Nom": "OUSSAID ",
+      "prenom": "MOUSSA",
+      "fonction": "CONDUCTEUR COMPACTEUR"
+    },
+    {
+      "Matricule": 10101569,
+      "Nom": "EL HOUSSINI",
+      "prenom": " ABDERRAZZAK",
+      "fonction": "REGLEUR"
+    },
+    {
+      "Matricule": 10100469,
+      "Nom": "TIFIRAS ",
+      "prenom": "ABDELAZIZ",
+      "fonction": "CONDUCTEUR  MINI COMPACTEUR"
+    },
+    {
+      "Matricule": 10103388,
+      "Nom": "FARCHI ",
+      "prenom": "HASSAN",
+      "fonction": "CHAUFFEUR PETIT CAMION"
+    },
+    {
+      "Matricule": 10102487,
+      "Nom": "EL-GHAFIQUI ",
+      "prenom": "SIDI MOHAMED",
+      "fonction": "CHAUFFEUR PETIT CAMION"
+    },
+    {
+      "Matricule": 10102689,
+      "Nom": "EL YASYDY ",
+      "prenom": "MOHAMED",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10101998,
+      "Nom": "SELLAMI",
+      "prenom": "ALI",
+      "fonction": "OUVRIER SPECIALISE"
+    },
+    {
+      "Matricule": 10102001,
+      "Nom": "BAKRICH",
+      "prenom": "KHALID",
+      "fonction": "OUVRIER SPECIALISE"
+    },
+    {
+      "Matricule": 10101829,
+      "Nom": "HAMDOUN",
+      "prenom": " IMAD",
+      "fonction": "REGLEUR"
+    },
+    {
+      "Matricule": 10102118,
+      "Nom": "AJRIF",
+      "prenom": "MUSTAPHA",
+      "fonction": "MECANICIEN"
+    },
+    {
+      "Matricule": 10102663,
+      "Nom": "BEN ABDELLAH ",
+      "prenom": "AHMED",
+      "fonction": "MECANICIEN DENTRETIEN"
+    },
+    {
+      "Matricule": 10100683,
+      "Nom": "BOUNOIDER ",
+      "prenom": "HAMID",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10101819,
+      "Nom": "QAFFOU",
+      "prenom": " YOUNES ",
+      "fonction": "POMPISTE"
+    },
+    {
+      "Matricule": 10100944,
+      "Nom": "BENIYSA",
+      "prenom": "SAMIR",
+      "fonction": "CH PICK-UP"
+    },
+    {
+      "Matricule": 10101530,
+      "Nom": "MOURABIT ",
+      "prenom": "MOHAMED",
+      "fonction": "CONDUCTEUR MINI CHARGEUSE"
+    },
+    {
+      "Matricule": 10102491,
+      "Nom": "BOUDIL ",
+      "prenom": "MOHA OU FATIL",
+      "fonction": "ANIMATEUR HSE"
+    },
+    {
+      "Matricule": 10102601,
+      "Nom": "REMLI ",
+      "prenom": "RACHID",
+      "fonction": "CONDUCTEUR COMPACTEUR"
+    },
+    {
+      "Matricule": 10103308,
+      "Nom": "BELLILA ",
+      "prenom": "MOHAMED SALEM",
+      "fonction": "COND COMPACTEUR"
+    },
+    {
+      "Matricule": 10103318,
+      "Nom": "ZAGOUR ",
+      "prenom": "MOURAD",
+      "fonction": "COND COMPACTEUR"
+    },
+    {
+      "Matricule": 10102809,
+      "Nom": "SEHBANI ",
+      "prenom": "NABIL",
+      "fonction": "COND COMPACTEUR"
+    },
+    {
+      "Matricule": 10102382,
+      "Nom": "MOUSSADEQ",
+      "prenom": "YASSINE",
+      "fonction": "MAIN D'OEUVRE"
+    },
+    {
+      "Matricule": 10103533,
+      "Nom": "EL KNAIZI ",
+      "prenom": "ER-RAHHALI",
+      "fonction": "CH CAMION 8*4"
+    },
+    {
+      "Matricule": 10103530,
+      "Nom": "MACHHOUR ",
+      "prenom": "AYYOUB",
+      "fonction": "CH CAMION 8*4"
+    },
+    {
+      "Matricule": 10103448,
+      "Nom": "ZAHRI ",
+      "prenom": "SALAH",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10102004,
+      "Nom": "BENCHIKH",
+      "prenom": "LAHOUCINE",
+      "fonction": "CHAUFFEUR CAMION"
+    },
+    {
+      "Matricule": 10103218,
+      "Nom": "AIT BRAHIM ",
+      "prenom": "YOUSSEF",
+      "fonction": "CHAUFFEUR PETIT CAMION"
+    },
+    {
+      "Matricule": 10100704,
+      "Nom": "OUABOU ",
+      "prenom": "OMAR",
+      "fonction": "CHAUFFEUR CAMION"
+    },
+    {
+      "Matricule": 10102348,
+      "Nom": "HAMMADI ",
+      "prenom": "TIJANI",
+      "fonction": "CONDUCTEUR COMPACTEUR"
+    },
+    {
+      "Matricule": 10100846,
+      "Nom": "EN NAJJAR ",
+      "prenom": "ABDELGHANI ",
+      "fonction": "SOUDEUR"
+    },
+    {
+      "Matricule": 10100809,
+      "Nom": "lHOUCH ",
+      "prenom": "LAHOUSSINE",
+      "fonction": "POMPISTE"
+    },
+    {
+      "Matricule": 10103497,
+      "Nom": "JAMAL EDDINE",
+      "prenom": "KHALID",
+      "fonction": "PNEUMATICIEN"
+    },
+    {
+      "Matricule": 10100439,
+      "Nom": "LABZIOUI ",
+      "prenom": "HAMID",
+      "fonction": "CONDUCTEUR BOBCAT"
+    },
+    {
+      "Matricule": 10103444,
+      "Nom": "BAHADI ",
+      "prenom": "SAID",
+      "fonction": "COND COMPACTEUR"
+    },
+    {
+      "Matricule": 10102948,
+      "Nom": "MOUMEN ",
+      "prenom": "KHALID",
+      "fonction": "COND COMPACTEUR"
+    },
+    {
+      "Matricule": 10102949,
+      "Nom": "LAHLOU ",
+      "prenom": "KAMAL",
+      "fonction": "COND COMPACTEUR"
+    },
+    {
+      "Matricule": 10102894,
+      "Nom": "EL HARADI ",
+      "prenom": "ABDELILAH",
+      "fonction": "COND COMPACTEUR"
+    },
+    {
+      "Matricule": 10100914,
+      "Nom": "OUTAOUALINE ",
+      "prenom": " MORAD",
+      "fonction": "POMPISTE"
+    },
+    {
+      "Matricule": 10101217,
+      "Nom": "IGZOUMEN ",
+      "prenom": "SLIMAN",
+      "fonction": "CONDUCTEUR COMPACTEUR"
+    },
+    {
+      "Matricule": 10101477,
+      "Nom": "MERNICH ",
+      "prenom": " MOHAMED",
+      "fonction": "CONDUCTEUR DUMPER"
+    },
+    {
+      "Matricule": 10100566,
+      "Nom": "AOUAD ",
+      "prenom": "ABDERRAHIM",
+      "fonction": "MAIN OEUVRE FINISSEUR"
+    },
+    {
+      "Matricule": 10100542,
+      "Nom": "LIOUAJI ",
+      "prenom": "ABDELMAJID",
+      "fonction": "CHEF D'EQUIPE"
+    },
+    {
+      "Matricule": 10102408,
+      "Nom": "AMIMI ",
+      "prenom": "EL MEHDI",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10102357,
+      "Nom": "MOUTY ",
+      "prenom": " KHALID",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10102454,
+      "Nom": "EL IDRISSI ",
+      "prenom": "MOULAY HASSAN",
+      "fonction": "AIDE COMPTABLE"
+    },
+    {
+      "Matricule": 10103296,
+      "Nom": "NAJI ",
+      "prenom": "MOHAMED",
+      "fonction": "CH CAMION 8*4"
+    },
+    {
+      "Matricule": 10103293,
+      "Nom": "LAKHAL ",
+      "prenom": "MOHAMED",
+      "fonction": "CH CAMION 8*4"
+    },
+    {
+      "Matricule": 10103288,
+      "Nom": "EL MOUHIB ",
+      "prenom": "ABDERRAHIM",
+      "fonction": "CH CAMION 8*4"
+    },
+    {
+      "Matricule": 10102410,
+      "Nom": "TOURABI ",
+      "prenom": "MOHAMED",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10102360,
+      "Nom": "EL OUAQQASY ",
+      "prenom": "YOUSSEF",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10102610,
+      "Nom": "AZLAIGUI ",
+      "prenom": "ABDELLAH",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10102536,
+      "Nom": "CHAOUL ",
+      "prenom": "ALLAL",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10102553,
+      "Nom": "BOUOUDOUD ",
+      "prenom": "MUSTAPHA",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10102486,
+      "Nom": "ZAIMI ",
+      "prenom": "ALAEDDINE",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10102286,
+      "Nom": "AZOUL LAHOUCINE ",
+      "prenom": "LAHOUCINE ",
+      "fonction": "CHAUFFEUR CAMION"
+    },
+    {
+      "Matricule": 10102062,
+      "Nom": "ENNAOUI",
+      "prenom": "ABDELOUAHED",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10101991,
+      "Nom": "ZALMAT ",
+      "prenom": "MOHAMED ",
+      "fonction": "CHAUFFEUR PETIT CAMION"
+    },
+    {
+      "Matricule": 10100735,
+      "Nom": "CHERCOU  ",
+      "prenom": "MOHAMED",
+      "fonction": "POMPISTE"
+    },
+    {
+      "Matricule": 10100982,
+      "Nom": "JAMAL EDDINE ",
+      "prenom": "ABDELLATIF",
+      "fonction": "PNEUMATICIEN"
+    },
+    {
+      "Matricule": 10100790,
+      "Nom": "OUZINBA ",
+      "prenom": "LHOUCINE",
+      "fonction": "POMPISTE"
+    },
+    {
+      "Matricule": 10100363,
+      "Nom": "EL BEHRI",
+      "prenom": "MLY EL HOUCINE",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10101572,
+      "Nom": " LAAJAJ ",
+      "prenom": " AHMED",
+      "fonction": "CONDUCTEUR COMPACTEUR"
+    },
+    {
+      "Matricule": 10101135,
+      "Nom": "SARTATI ",
+      "prenom": "ABDERRAHIM",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10101192,
+      "Nom": "ED-DAJJANY ",
+      "prenom": "AZIZ",
+      "fonction": "CHAUFFEUR PETIT CAMION"
+    },
+    {
+      "Matricule": 10101142,
+      "Nom": "LOUADRHIRI ",
+      "prenom": " ABDELAALI ",
+      "fonction": "CONDUCTEUR  DE LA PELLE"
+    },
+    {
+      "Matricule": 10101442,
+      "Nom": "HANYNY ",
+      "prenom": "OMAR ",
+      "fonction": "BITUMINEUX"
+    },
+    {
+      "Matricule": 10103438,
+      "Nom": "BAZKIRA",
+      "prenom": " BADER",
+      "fonction": "GESTIONNAIRE DE POSTE "
+    },
+    {
+      "Matricule": 10100389,
+      "Nom": "EL MAMOUNI ",
+      "prenom": "RAHAL",
+      "fonction": "POMPISTE"
+    },
+    {
+      "Matricule": 10100769,
+      "Nom": "BOUBKRI ",
+      "prenom": " HSSAINE",
+      "fonction": "CONDUCTEUR COMPACTEUR"
+    },
+    {
+      "Matricule": 10100770,
+      "Nom": "BELKHADIR ",
+      "prenom": " MUSTAPHA",
+      "fonction": "CONDUCTEUR COMPACTEUR"
+    },
+    {
+      "Matricule": 10100898,
+      "Nom": "BOUZIANE ",
+      "prenom": " ANOUAR ",
+      "fonction": "ANIMATEUR HSE"
+    },
+    {
+      "Matricule": 10103498,
+      "Nom": "EL OUAAD ",
+      "prenom": "REDOUANE",
+      "fonction": "COMPTABLE DE CHANTIER"
+    },
+    {
+      "Matricule": 10100641,
+      "Nom": "ADARAS ",
+      "prenom": "DRISS",
+      "fonction": "CHEF D'EQUIPE C3"
+    },
+    {
+      "Matricule": 10103470,
+      "Nom": "ESSOUSY ",
+      "prenom": "MOHAMED",
+      "fonction": "CH CAMION 8*4"
+    },
+    {
+      "Matricule": 10103389,
+      "Nom": "ET-TAOUYL ",
+      "prenom": "YASSINE",
+      "fonction": "SOUDEUR"
+    },
+    {
+      "Matricule": 10102879,
+      "Nom": "EL KOUTIRI ",
+      "prenom": "MOHAMED",
+      "fonction": "SOUDEUR"
+    },
+    {
+      "Matricule": 10101207,
+      "Nom": "LYASFI ",
+      "prenom": " ANAS",
+      "fonction": "OPERATEUR NIVEAU"
+    },
+    {
+      "Matricule": 10102801,
+      "Nom": "AIT BEN HAJJOU ",
+      "prenom": "BRAHIM",
+      "fonction": "COND CHARGEUSE"
+    },
+    {
+      "Matricule": 10102598,
+      "Nom": "CHATUAN ",
+      "prenom": "LOUAYE",
+      "fonction": "COMPTABLE DE CHANTIER"
+    },
+    {
+      "Matricule": 10102662,
+      "Nom": "AHDRI ",
+      "prenom": "MOHAMED",
+      "fonction": "COND CHARGEUSE"
+    },
+    {
+      "Matricule": 10100628,
+      "Nom": "EL AMMARY ",
+      "prenom": "RACHID",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10100529,
+      "Nom": "SAADAOUI ",
+      "prenom": "MOHAMED",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10103569,
+      "Nom": "JAMAAOUI ",
+      "prenom": "ABDERRAHIM",
+      "fonction": "CH CAMION 4*2"
+    },
+    {
+      "Matricule": 10103532,
+      "Nom": "KASSIMI",
+      "prenom": "AYMAN",
+      "fonction": "CH CAMION 8*4"
+    },
+    {
+      "Matricule": 10103500,
+      "Nom": "OUTTOUCH ",
+      "prenom": "RACHID ",
+      "fonction": "CH CAMION 4*2"
+    },
+    {
+      "Matricule": 10103418,
+      "Nom": "MELKAOUI",
+      "prenom": " ISMAIL",
+      "fonction": "CH CAMION 8*4"
+    },
+    {
+      "Matricule": 10103376,
+      "Nom": "EZZAYANY ",
+      "prenom": "BRAHIM",
+      "fonction": "CH CAMION 8*4"
+    },
+    {
+      "Matricule": 10103311,
+      "Nom": "ES-SALEHY ",
+      "prenom": "MUSTAPHA",
+      "fonction": "CHAUFFEUR PETIT CAMION"
+    },
+    {
+      "Matricule": 10102280,
+      "Nom": "EL HANNAOUY ",
+      "prenom": "MUSTAPHA",
+      "fonction": "CHAUFFEUR CAMION"
+    },
+    {
+      "Matricule": 10102947,
+      "Nom": "EL AIRAQI ",
+      "prenom": "YOUNES",
+      "fonction": "CH CAMION 8*4"
+    },
+    {
+      "Matricule": 10102790,
+      "Nom": "EL-YAMANY ",
+      "prenom": "SALEH",
+      "fonction": "CH CAMION 8*4"
+    },
+    {
+      "Matricule": 10102484,
+      "Nom": "EL OUAKIL ",
+      "prenom": "MOHAMMED",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10102474,
+      "Nom": "OUBAHNA ",
+      "prenom": "ABDERRAHMANE",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10102175,
+      "Nom": "ARCHICH ",
+      "prenom": "MOHMED ",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10102016,
+      "Nom": "MENSSOUR",
+      "prenom": "BRAHIM",
+      "fonction": "CHAUFFEUR CAMION"
+    },
+    {
+      "Matricule": 10101630,
+      "Nom": "ALLAT ",
+      "prenom": "ABDELLATIF ",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10101731,
+      "Nom": "LAGROUMI ",
+      "prenom": "KHALID",
+      "fonction": "CHAUFFEUR PETIT CAMION"
+    },
+    {
+      "Matricule": 10100056,
+      "Nom": "CHAOUCH ",
+      "prenom": " KHALID",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10101355,
+      "Nom": "ENNAHHAL ",
+      "prenom": " MOHAMED",
+      "fonction": "CHAUFFEUR CAMION"
+    },
+    {
+      "Matricule": 10101037,
+      "Nom": "ALHYANE",
+      "prenom": "BRAHIM",
+      "fonction": "CHAUFFEUR CAMION"
+    },
+    {
+      "Matricule": 10100693,
+      "Nom": "ENNAJI",
+      "prenom": "NABIL",
+      "fonction": "COMPTABLE DE CHANTIER C2"
+    },
+    {
+      "Matricule": 10100844,
+      "Nom": "KOULFI ",
+      "prenom": "SAID ",
+      "fonction": "CONDUCTEUR CHARGEUSE"
+    },
+    {
+      "Matricule": 10100512,
+      "Nom": "BEN HADDOU",
+      "prenom": "HASSAN",
+      "fonction": "CHAUFFEUR PETIT CAMION"
+    },
+    {
+      "Matricule": 10102050,
+      "Nom": "MARZAK",
+      "prenom": "MOHAMED",
+      "fonction": "LABORANTIN "
+    },
+    {
+      "Matricule": 10102609,
+      "Nom": "CHARIFI ",
+      "prenom": "LAHCEN ",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10103220,
+      "Nom": "OUAHI ",
+      "prenom": "HAMID",
+      "fonction": "CH CAMION 8*4"
+    },
+    {
+      "Matricule": 10100158,
+      "Nom": "NACIRI ",
+      "prenom": " YOUNES ",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10103412,
+      "Nom": "CHEMRAH",
+      "prenom": " JAMAL",
+      "fonction": "CH CAMION 8*4"
+    },
+    {
+      "Matricule": 10103294,
+      "Nom": "MERNICH ",
+      "prenom": "HAMMOU",
+      "fonction": "CH CAMION 8*4"
+    },
+    {
+      "Matricule": 10103297,
+      "Nom": "OUAKKA ",
+      "prenom": "HAFID",
+      "fonction": "CH CAMION 8*4"
+    },
+    {
+      "Matricule": 10103282,
+      "Nom": "BATNA ",
+      "prenom": "ABDELKRIM",
+      "fonction": "CH CAMION 8*4"
+    },
+    {
+      "Matricule": 10103226,
+      "Nom": "OUHADDOU ",
+      "prenom": "ABDELMAJID",
+      "fonction": "CH CAMION 8*4"
+    },
+    {
+      "Matricule": 10100871,
+      "Nom": "BOUYAKBANE ",
+      "prenom": "JAMAL",
+      "fonction": "CONDUCTEUR  DE LA PELLE"
+    },
+    {
+      "Matricule": 10102477,
+      "Nom": "TRIFI ",
+      "prenom": "MOSTAPHA",
+      "fonction": "CONDUCTEUR  DE LA PELLE"
+    },
+    {
+      "Matricule": 10101175,
+      "Nom": "EL MOUJAHID ",
+      "prenom": "KHALID ",
+      "fonction": "CONDUCTEUR  DE LA PELLE"
+    },
+    {
+      "Matricule": 10102455,
+      "Nom": "BEN LABYAD ",
+      "prenom": "ABDELLATIF",
+      "fonction": "CHAUFFEUR CAMION"
+    },
+    {
+      "Matricule": 10101021,
+      "Nom": "AIT MANZOU ",
+      "prenom": " ABDERRAHMAN",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10100068,
+      "Nom": "EL MOURABIT ",
+      "prenom": "ALI ",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10101443,
+      "Nom": "HRIOUECH ",
+      "prenom": " OTHMAN ",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10103307,
+      "Nom": "LABSIR ",
+      "prenom": "ABEDELJAWAD",
+      "fonction": "CHEF DE PARCK LOGISTIQUE"
+    },
+    {
+      "Matricule": 10100627,
+      "Nom": "BOUJNAN ",
+      "prenom": "SOUFIANE",
+      "fonction": "CONDUCTEUR CHARGEUSE"
+    },
+    {
+      "Matricule": 10103372,
+      "Nom": "HOUBAN ",
+      "prenom": "MUSTAPHA",
+      "fonction": "CH CAMION 4*2"
+    },
+    {
+      "Matricule": 10100359,
+      "Nom": "CHAAYAD",
+      "prenom": "MOHA",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10100342,
+      "Nom": "EL HANT",
+      "prenom": "IDIR",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10100344,
+      "Nom": "BOUAID",
+      "prenom": "BRAHIM",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10100476,
+      "Nom": "ZAAITAR",
+      "prenom": "ABDELJABAR",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10101011,
+      "Nom": "SLIMANI ",
+      "prenom": "HASSANE",
+      "fonction": "COMPTABLE DE CHANTIER C2"
+    },
+    {
+      "Matricule": 10102678,
+      "Nom": "EL OUANKHIRY ",
+      "prenom": "RIDA",
+      "fonction": "vulcanisateur"
+    },
+    {
+      "Matricule": 10100467,
+      "Nom": "OUTTOUCH ",
+      "prenom": "HAMID",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10100524,
+      "Nom": "BAKKAL ",
+      "prenom": "TAOUFIK",
+      "fonction": "CONDUCTEUR PELLE"
+    },
+    {
+      "Matricule": 10102937,
+      "Nom": "LAASRI ",
+      "prenom": "HICHAM",
+      "fonction": "SOUDEUR"
+    },
+    {
+      "Matricule": 10100867,
+      "Nom": "ESSADIK ",
+      "prenom": "MANSOUR ",
+      "fonction": "REGLEUR FINISSEUR"
+    },
+    {
+      "Matricule": 10100906,
+      "Nom": "BOUCHBOUCH",
+      "prenom": "HICHAM",
+      "fonction": "CHAUFFEUR CAMION"
+    },
+    {
+      "Matricule": 10100252,
+      "Nom": "JIBI ",
+      "prenom": "EL HASSAN ",
+      "fonction": "CONDUCTEUR CHARGEUSE"
+    },
+    {
+      "Matricule": 10100594,
+      "Nom": "BAMHAOUD",
+      "prenom": "TARIQ",
+      "fonction": "AIDE MACHINISTE"
+    },
+    {
+      "Matricule": 10102131,
+      "Nom": "OUHAMJOU ",
+      "prenom": "MOURAD",
+      "fonction": "CONDUCTEUR PELLE"
+    },
+    {
+      "Matricule": 10102413,
+      "Nom": "AIT IDAR ",
+      "prenom": "SAID",
+      "fonction": "CONDUCTEUR PELLE"
+    },
+    {
+      "Matricule": 10102600,
+      "Nom": "TANEKHAMT ",
+      "prenom": "MOHAMED",
+      "fonction": "CONDUCTEUR  DE LA PELLE"
+    },
+    {
+      "Matricule": 10102550,
+      "Nom": "BAROUIGUI ",
+      "prenom": "ZOHIR",
+      "fonction": "CONDUCTEUR  DE LA PELLE"
+    },
+    {
+      "Matricule": 10100496,
+      "Nom": "REHALI",
+      "prenom": "KARIM",
+      "fonction": "MECANICIEN"
+    },
+    {
+      "Matricule": 10100525,
+      "Nom": "DAHOU ",
+      "prenom": "CHAOUL ",
+      "fonction": "CONDUCTEUR PELLE"
+    },
+    {
+      "Matricule": 10102495,
+      "Nom": "AJBALI ",
+      "prenom": "ABDELKHALEK",
+      "fonction": "CHEF D'EQUIPE"
+    },
+    {
+      "Matricule": 10101084,
+      "Nom": "AIT HAMMOU ",
+      "prenom": "BOUJEMAA",
+      "fonction": "CHEF D'EQUIPE C3"
+    },
+    {
+      "Matricule": 10100986,
+      "Nom": "OUAAZZI ",
+      "prenom": "ABDERRAHIM",
+      "fonction": "CHEF D'EQUIPE C3"
+    },
+    {
+      "Matricule": 10200056,
+      "Nom": "KARYM",
+      "prenom": "MOHAMED",
+      "fonction": "CONDUCTEUR CLARCK"
+    },
+    {
+      "Matricule": 10200087,
+      "Nom": "TOUFIK ",
+      "prenom": "ABDELKHALK",
+      "fonction": "CH PICK-UP"
+    },
+    {
+      "Matricule": 10200085,
+      "Nom": "AIT LAHCEN",
+      "prenom": "ABDERRAHIM",
+      "fonction": "CH Voiture de service"
+    },
+    {
+      "Matricule": 10200080,
+      "Nom": "ABBIDA ",
+      "prenom": "SAAID",
+      "fonction": "CH PICK-UP"
+    },
+    {
+      "Matricule": 10200072,
+      "Nom": "YOUNOUS ",
+      "prenom": "NOUREDDINE",
+      "fonction": "CONDUCTEUR  AUTO BETONNIERE"
+    },
+    {
+      "Matricule": 10200048,
+      "Nom": "SGHIR",
+      "prenom": "MOHAMED",
+      "fonction": "SOUDEUR"
+    },
+    {
+      "Matricule": 10200043,
+      "Nom": "LGHACHI",
+      "prenom": "MOHAMED",
+      "fonction": "CONDUCTEUR TRACTO-PELLE"
+    },
+    {
+      "Matricule": 10200029,
+      "Nom": "BADDOU ",
+      "prenom": "ABDELHAFID",
+      "fonction": "CONDUCTEUR  AUTO BETONNIERE"
+    },
+    {
+      "Matricule": 10200023,
+      "Nom": "CHAKIR",
+      "prenom": "SAID",
+      "fonction": "CONDUCTEUR TRACTO-PELLE"
+    },
+    {
+      "Matricule": 10202448,
+      "Nom": "OUBOUCHIRB ",
+      "prenom": "MUSTAPHA",
+      "fonction": "CH PICK-UP"
+    },
+    {
+      "Matricule": 10200393,
+      "Nom": "ESSABBANE ",
+      "prenom": "SAID ",
+      "fonction": "MAIN D'OEUVRE"
+    },
+    {
+      "Matricule": 10201373,
+      "Nom": "EL HARCH",
+      "prenom": "RIDA",
+      "fonction": "MAIN D'OEUVRE"
+    },
+    {
+      "Matricule": 10201539,
+      "Nom": "OUALI ",
+      "prenom": "ISMAIL",
+      "fonction": "MAIN D'OEUVRE"
+    },
+    {
+      "Matricule": 10202416,
+      "Nom": "OUIAZZANE ",
+      "prenom": "HAMID",
+      "fonction": "APLICATEUR D'ASPHALTE"
+    },
+    {
+      "Matricule": 10202375,
+      "Nom": "EL KIHEL ",
+      "prenom": "AHMED",
+      "fonction": "OUVRIER SPECIALISE"
+    },
+    {
+      "Matricule": 10202371,
+      "Nom": "EL HAMINE ",
+      "prenom": "AHMED",
+      "fonction": "CHODRONNIER"
+    },
+    {
+      "Matricule": 10203057,
+      "Nom": "CHAOUKI",
+      "prenom": "SOUFIANE",
+      "fonction": "CH PICK-UP"
+    },
+    {
+      "Matricule": 10202418,
+      "Nom": "DANAN ",
+      "prenom": "NOURDINE ",
+      "fonction": "POMPISTE"
+    },
+    {
+      "Matricule": 10202370,
+      "Nom": "HADI ",
+      "prenom": "YASSINE",
+      "fonction": "TOLIER"
+    },
+    {
+      "Matricule": 10202374,
+      "Nom": "EL AOUNI ",
+      "prenom": "TOUFIQ",
+      "fonction": "OUVRIER SPECIALISE"
+    },
+    {
+      "Matricule": 10202373,
+      "Nom": "AIT TOUNATE  ",
+      "prenom": "OUALID",
+      "fonction": "APLICATEUR D'ASPHALTE"
+    },
+    {
+      "Matricule": 10202372,
+      "Nom": "BENZIRAOUI ",
+      "prenom": "MUSTAPHA",
+      "fonction": "APLICATEUR D'ASPHALTE"
+    },
+    {
+      "Matricule": 10202237,
+      "Nom": "EDDAGHRI ",
+      "prenom": "BOUJEMA",
+      "fonction": "AGENT DE LAVAGE"
+    },
+    {
+      "Matricule": 10202244,
+      "Nom": "NAAMANI ",
+      "prenom": "RACHID",
+      "fonction": "SOUDEUR"
+    },
+    {
+      "Matricule": 10202246,
+      "Nom": "HILALOU ",
+      "prenom": "HAKIM",
+      "fonction": "COURSIER"
+    },
+    {
+      "Matricule": 10202240,
+      "Nom": "HADI",
+      "prenom": " OTMAN",
+      "fonction": "SOUDEUR"
+    },
+    {
+      "Matricule": 10202249,
+      "Nom": "BOUKHADA ",
+      "prenom": "MOHAMED",
+      "fonction": "PNEUMATICIEN"
+    },
+    {
+      "Matricule": 10202220,
+      "Nom": "MAAROUF",
+      "prenom": "ABDELHAQ",
+      "fonction": "AIDE MECANICIEN"
+    },
+    {
+      "Matricule": 10202211,
+      "Nom": "SAFFAR ",
+      "prenom": "ZAKARIA",
+      "fonction": "MECANICIEN"
+    },
+    {
+      "Matricule": 10202216,
+      "Nom": "EL KHATYB ",
+      "prenom": "AYOUB",
+      "fonction": "ANIMATEUR HSE"
+    },
+    {
+      "Matricule": 10202176,
+      "Nom": "ELCHI ",
+      "prenom": "ASSNAE",
+      "fonction": "FEMME DE MENAGE"
+    },
+    {
+      "Matricule": 10202175,
+      "Nom": "OURHAHOU ",
+      "prenom": "MOHAMED",
+      "fonction": "COMPTABLE DE CHANTIER"
+    },
+    {
+      "Matricule": 10202105,
+      "Nom": "MORAD ",
+      "prenom": "NOUREDDINE",
+      "fonction": "AIDE MECANICIEN"
+    },
+    {
+      "Matricule": 10202026,
+      "Nom": "MHAIDRA ",
+      "prenom": "MOHAMMED",
+      "fonction": "CHEF D'EQUIPE"
+    },
+    {
+      "Matricule": 10202030,
+      "Nom": "SIFENNASR ",
+      "prenom": "OTMAN",
+      "fonction": "COMPTABLE DE CHANTIER"
+    },
+    {
+      "Matricule": 10200526,
+      "Nom": "DADDA",
+      "prenom": "ISMAIL",
+      "fonction": "CONDUCTEUR ALIMENTATEUR"
+    },
+    {
+      "Matricule": 10200838,
+      "Nom": "MANSOUR ",
+      "prenom": "YOUNNESS",
+      "fonction": "OPERATEUR NIVEAU"
+    },
+    {
+      "Matricule": 10201599,
+      "Nom": "LABDAOUI ",
+      "prenom": "ALLAL",
+      "fonction": "CH CAMION"
+    },
+    {
+      "Matricule": 10201556,
+      "Nom": "EL BAHJAOUI ",
+      "prenom": "MUSTAPHA",
+      "fonction": "CONDUCTEUR COMPACTEUR"
+    },
+    {
+      "Matricule": 10201575,
+      "Nom": "lahoual ",
+      "prenom": "yassine",
+      "fonction": "AIDE MECANICIEN"
+    },
+    {
+      "Matricule": 10201896,
+      "Nom": "AIT BENMOH ",
+      "prenom": "ABDELLAH",
+      "fonction": "POMPISTE"
+    },
+    {
+      "Matricule": 10201812,
+      "Nom": "EL GHAYATI ",
+      "prenom": "MUSTAPHA",
+      "fonction": "CH PICK-UP"
+    },
+    {
+      "Matricule": 10201813,
+      "Nom": "GOUCHEG ",
+      "prenom": "ABDELAZIZ",
+      "fonction": "CH PICK-UP"
+    },
+    {
+      "Matricule": 10201023,
+      "Nom": "AMZIL",
+      "prenom": "JAWAD",
+      "fonction": "AIDE MAGASINIER"
+    },
+    {
+      "Matricule": 10201750,
+      "Nom": "EL QASEMY ",
+      "prenom": "MUSTAPHA",
+      "fonction": "CH PICK-UP"
+    },
+    {
+      "Matricule": 10201747,
+      "Nom": "DIAFI ",
+      "prenom": "ABDELMOUNIM",
+      "fonction": "COND TRACTOPELLE"
+    },
+    {
+      "Matricule": 10201717,
+      "Nom": "FAIZ ",
+      "prenom": "ADIL",
+      "fonction": "PNEUMATICIEN"
+    },
+    {
+      "Matricule": 10201646,
+      "Nom": "AYCH ",
+      "prenom": "EL ARBI",
+      "fonction": "CONDUCTEUR COMPACTEUR"
+    },
+    {
+      "Matricule": 10201644,
+      "Nom": "AIT ADDOUCH ",
+      "prenom": "RACHID ",
+      "fonction": "POMPISTE"
+    },
+    {
+      "Matricule": 10201624,
+      "Nom": "AIT OUCHBOU ",
+      "prenom": "LHOUSSAIN",
+      "fonction": "POMPISTE"
+    },
+    {
+      "Matricule": 10201619,
+      "Nom": "CHOUKRI ",
+      "prenom": "YOUSSEF",
+      "fonction": "CONDUCTEUR COMPACTEUR"
+    },
+    {
+      "Matricule": 10201616,
+      "Nom": "EL KARTE ",
+      "prenom": "MOHAMED",
+      "fonction": "CONDUCTEUR PELLE"
+    },
+    {
+      "Matricule": 10201514,
+      "Nom": "EL-HANSALY ",
+      "prenom": " AZIZ",
+      "fonction": "POMPISTE"
+    },
+    {
+      "Matricule": 10201516,
+      "Nom": "EDDEHBI ",
+      "prenom": "MOHAMMED ",
+      "fonction": "Surveillance"
+    },
+    {
+      "Matricule": 10201517,
+      "Nom": "EL BOUAZZAOUI ",
+      "prenom": "MOHAMED",
+      "fonction": "Surveillance"
+    },
+    {
+      "Matricule": 10201512,
+      "Nom": "ECH-CHALH ",
+      "prenom": "RAHHAL",
+      "fonction": "CONDUCTEUR TRACTO-PELLE"
+    },
+    {
+      "Matricule": 10201086,
+      "Nom": "ER-REMCH ",
+      "prenom": "ABDELHAMID ",
+      "fonction": "CONDUCTEUR ALIMENTATEUR"
+    },
+    {
+      "Matricule": 10201094,
+      "Nom": "EL JANATI ",
+      "prenom": "LAHCEN ",
+      "fonction": "CONDUCTEUR COMPACTEUR"
+    },
+    {
+      "Matricule": 10201451,
+      "Nom": "IZIHI ",
+      "prenom": "SAID",
+      "fonction": "CONDUCTEUR MANITO"
+    },
+    {
+      "Matricule": 10201449,
+      "Nom": "EL ABDY ",
+      "prenom": "SOUFIANE",
+      "fonction": "Surveillance"
+    },
+    {
+      "Matricule": 10201455,
+      "Nom": "AIT OUALI ",
+      "prenom": "SAID",
+      "fonction": "PNEUMATICIEN"
+    },
+    {
+      "Matricule": 10201006,
+      "Nom": "ROKHSSI",
+      "prenom": "OUSAMA",
+      "fonction": "MAGASINIER"
+    },
+    {
+      "Matricule": 10201454,
+      "Nom": "ZINA ",
+      "prenom": "YOUNESS",
+      "fonction": "PNEUMATICIEN"
+    },
+    {
+      "Matricule": 10201404,
+      "Nom": "HAKI ",
+      "prenom": "AHMED",
+      "fonction": "SOUDEUR"
+    },
+    {
+      "Matricule": 10201403,
+      "Nom": "LAASOU ",
+      "prenom": "MOHAMED",
+      "fonction": "CONDUCTEUR PELLE"
+    },
+    {
+      "Matricule": 10201364,
+      "Nom": "BOUBOU ",
+      "prenom": "ALI",
+      "fonction": "CH TRACTO-PELLE"
+    },
+    {
+      "Matricule": 10201369,
+      "Nom": "BOUZHOUR ",
+      "prenom": "MUSTAPHA",
+      "fonction": "CH PICK-UP"
+    },
+    {
+      "Matricule": 10201366,
+      "Nom": "AIT HAMMOU OUADDI ",
+      "prenom": "LAHCEN",
+      "fonction": "CONDUCTEUR  DE LA PELLE"
+    },
+    {
+      "Matricule": 10201314,
+      "Nom": "TOUIL  ",
+      "prenom": "TAWFIK",
+      "fonction": "Surveillance"
+    },
+    {
+      "Matricule": 10201321,
+      "Nom": "SAID  ",
+      "prenom": "HOUBOUB ",
+      "fonction": "Surveillance"
+    },
+    {
+      "Matricule": 10201324,
+      "Nom": "ZKHIRI ",
+      "prenom": "ADIL",
+      "fonction": "Surveillance"
+    },
+    {
+      "Matricule": 10201323,
+      "Nom": "BACHICH ",
+      "prenom": "ABDERRAHIM",
+      "fonction": "Surveillance"
+    },
+    {
+      "Matricule": 10201281,
+      "Nom": "HAMDOUH",
+      "prenom": "MOUNIR",
+      "fonction": "AIDE OPERATEUR"
+    },
+    {
+      "Matricule": 10201250,
+      "Nom": "EL BELGHITI",
+      "prenom": "KHALIFA",
+      "fonction": "CONDUCTEUR PELLE"
+    },
+    {
+      "Matricule": 10201219,
+      "Nom": "BOULAL",
+      "prenom": "SAID",
+      "fonction": "CH PICK-UP"
+    },
+    {
+      "Matricule": 10201182,
+      "Nom": "OUBENIZZA",
+      "prenom": "MOHAMED",
+      "fonction": "AIDE MAGASINIER"
+    },
+    {
+      "Matricule": 10201181,
+      "Nom": "ZAHAR",
+      "prenom": "HASSAN",
+      "fonction": "POMPISTE"
+    },
+    {
+      "Matricule": 10200674,
+      "Nom": "AMAMAR",
+      "prenom": "IMAD",
+      "fonction": "OUVRIER SPECIALISE"
+    },
+    {
+      "Matricule": 10201143,
+      "Nom": "FATIH ",
+      "prenom": "HAMZA",
+      "fonction": "CONDUCTEUR COMPACTEUR"
+    },
+    {
+      "Matricule": 10200971,
+      "Nom": "ARBIA ",
+      "prenom": "ABDENABI",
+      "fonction": "CH MINI-BUS"
+    },
+    {
+      "Matricule": 10200972,
+      "Nom": "CHERKAOUI ",
+      "prenom": "JALAL",
+      "fonction": "CONDUCTEUR COMPACTEUR"
+    },
+    {
+      "Matricule": 10200974,
+      "Nom": "RAOUD ",
+      "prenom": "FARID",
+      "fonction": "CONDUCTEUR  DE LA PELLE"
+    },
+    {
+      "Matricule": 10200247,
+      "Nom": "HAMADA ",
+      "prenom": "NAJIB ",
+      "fonction": "CONDUCTEUR PELLE"
+    },
+    {
+      "Matricule": 10200793,
+      "Nom": "BOUYACHOU",
+      "prenom": "ESSAID",
+      "fonction": "POMPISTE"
+    },
+    {
+      "Matricule": 10200240,
+      "Nom": "ELHAMRI ",
+      "prenom": "ABDELALI ",
+      "fonction": "CHAUFFEUR ET AGENT ENTRETIEN"
+    },
+    {
+      "Matricule": 10200894,
+      "Nom": "ECHCHAALI ",
+      "prenom": "ABDELALI",
+      "fonction": "CONDUCTEUR COMPACTEUR"
+    },
+    {
+      "Matricule": 10200830,
+      "Nom": "ADAANAN ",
+      "prenom": " MOHAMED",
+      "fonction": "CONDUCTEUR  DE LA PELLE"
+    },
+    {
+      "Matricule": 10200789,
+      "Nom": "DARDOURI",
+      "prenom": "MANSSOUR",
+      "fonction": "CH PICK-UP"
+    },
+    {
+      "Matricule": 10200005,
+      "Nom": "OUHADDI",
+      "prenom": " BRAHIM ",
+      "fonction": "CONDUCTEUR CHARGEUSE"
+    },
+    {
+      "Matricule": 10200008,
+      "Nom": "OUHNNI ",
+      "prenom": " HAJIBA",
+      "fonction": "FEMME DE MENAGE"
+    },
+    {
+      "Matricule": 10200007,
+      "Nom": "ZINA ",
+      "prenom": " KHALID ",
+      "fonction": "PNEUMATICIEN"
+    },
+    {
+      "Matricule": 10200010,
+      "Nom": "ECHCHARKAOUY ",
+      "prenom": " MOHAMED",
+      "fonction": "SOUDEUR"
+    },
+    {
+      "Matricule": 10200032,
+      "Nom": "OUTALEB",
+      "prenom": "MHAMED",
+      "fonction": "CHEF D'EQUIPE C3"
+    },
+    {
+      "Matricule": 10200174,
+      "Nom": "KHABAMOU  ",
+      "prenom": "ABDELAZIZ",
+      "fonction": "COMPTABLE DE CHANTIER C2"
+    },
+    {
+      "Matricule": 10200178,
+      "Nom": "MASSOUS ",
+      "prenom": "HASSAN ",
+      "fonction": "CHEF D'EQUIPE C3"
+    },
+    {
+      "Matricule": 10200180,
+      "Nom": "KHAZAZ ",
+      "prenom": "EL MEHDI",
+      "fonction": "OPERATEUR NIVEAU"
+    },
+    {
+      "Matricule": 10200163,
+      "Nom": "BOUMNIR ",
+      "prenom": " ABDERRAHIM",
+      "fonction": "POMPISTE"
+    },
+    {
+      "Matricule": 10200225,
+      "Nom": "EL GUEROUA",
+      "prenom": "RACHID",
+      "fonction": "CH PICK-UP"
+    },
+    {
+      "Matricule": 10200220,
+      "Nom": "SABRI ",
+      "prenom": " TAHAR ",
+      "fonction": "MAIN D'OEUVRE"
+    },
+    {
+      "Matricule": 10200183,
+      "Nom": "BOURDAN",
+      "prenom": "HICHAM",
+      "fonction": "POMPISTE"
+    },
+    {
+      "Matricule": 10200103,
+      "Nom": "EL GAGA ",
+      "prenom": "ABDELHAMID",
+      "fonction": "COMPTABLE DE CHANTIER C3"
+    },
+    {
+      "Matricule": 10200191,
+      "Nom": "AFARKA",
+      "prenom": " MOHAMED",
+      "fonction": "MECANICIEN"
+    },
+    {
+      "Matricule": 10200186,
+      "Nom": "EL AATI ",
+      "prenom": "MHAMMED",
+      "fonction": "SOUDEUR"
+    },
+    {
+      "Matricule": 10200119,
+      "Nom": "RAKHSSANE ",
+      "prenom": "MOHAMMED",
+      "fonction": "GRAISSEUR FINISSEUR"
+    },
+    {
+      "Matricule": 10200166,
+      "Nom": "ER-RAMI ",
+      "prenom": "OULAID ",
+      "fonction": "OPERATEUR NIVEAU"
+    },
+    {
+      "Matricule": 10200157,
+      "Nom": "ATLAS ",
+      "prenom": "SAID ",
+      "fonction": "CH CANTER GASOIL "
+    },
+    {
+      "Matricule": 10200159,
+      "Nom": "ADDAIDI ",
+      "prenom": "NAIMA",
+      "fonction": "FEMME DE MENAGE"
+    },
+    {
+      "Matricule": 10200152,
+      "Nom": "MASAOUDI ",
+      "prenom": "MOSTAPHA",
+      "fonction": "GESTIONNAIRE DE POSTE "
+    },
+    {
+      "Matricule": 10200744,
+      "Nom": "REIDA ",
+      "prenom": " YASSIR ",
+      "fonction": "OPERATEUR NIVEAU"
+    },
+    {
+      "Matricule": 10200150,
+      "Nom": "GHAZI ",
+      "prenom": "RACHID ",
+      "fonction": "COMPTABLE DE CHANTIER C2"
+    },
+    {
+      "Matricule": 10200743,
+      "Nom": "BEN ATIA ",
+      "prenom": "MOHAMED",
+      "fonction": "CONDUCTEUR COMPACTEUR"
+    },
+    {
+      "Matricule": 10200145,
+      "Nom": "ZIANI ",
+      "prenom": " SLIMANE",
+      "fonction": "OPERATEUR NIVEAU"
+    },
+    {
+      "Matricule": 10200140,
+      "Nom": "KARKAR ",
+      "prenom": "ABDERRAHMAN",
+      "fonction": "CH PICK-UP"
+    },
+    {
+      "Matricule": 10200134,
+      "Nom": "HACHAMI ",
+      "prenom": " MOULAY SMAIL",
+      "fonction": "CH MINI-BUS"
+    },
+    {
+      "Matricule": 10200132,
+      "Nom": "ACHKOUR ",
+      "prenom": "REDA",
+      "fonction": "COURSIER"
+    },
+    {
+      "Matricule": 10200124,
+      "Nom": "TAOUFIKALLAH ",
+      "prenom": " JAOUAD ",
+      "fonction": "TOURNEUR"
+    },
+    {
+      "Matricule": 10200111,
+      "Nom": "AIT NACEUR ",
+      "prenom": "MUSTAPHA",
+      "fonction": "POMPISTE"
+    },
+    {
+      "Matricule": 10200108,
+      "Nom": "AZEROUAL ",
+      "prenom": "ABDERRAZAK",
+      "fonction": "CONDUCTEUR PELLE"
+    },
+    {
+      "Matricule": 10200104,
+      "Nom": "AGOUZOUL ",
+      "prenom": " ABDERRAHMANE",
+      "fonction": "MAGASINIER"
+    }
+  ],
+  "GROUPE MOJAZINE": [
+    {
+      "MATRICULE": 20001197,
+      "NOM": "ESSADIK ",
+      "PRENOM": "MOULAY EL ARBI",
+      "FONCTION": "M.O FINISSEUR"
+    },
+    {
+      "MATRICULE": 20001236,
+      "NOM": "BAHAIDA ",
+      "PRENOM": "EL MUSTAPHA",
+      "FONCTION": "GARDIEN"
+    },
+    {
+      "MATRICULE": 20001449,
+      "NOM": "LYAKTINI ",
+      "PRENOM": "MY OMAR",
+      "FONCTION": "CH CANTER"
+    },
+    {
+      "MATRICULE": 20001709,
+      "NOM": "AIT ALLA",
+      "PRENOM": "KAMAL",
+      "FONCTION": "OPERATEUR"
+    },
+    {
+      "MATRICULE": 20003209,
+      "NOM": "BOUAKID",
+      "PRENOM": "ILHAM",
+      "FONCTION": "OPERATRICE DE SAISIE"
+    },
+    {
+      "MATRICULE": 20000791,
+      "NOM": "LYAKTINI",
+      "PRENOM": "RACHID",
+      "FONCTION": "M.O POSTE DENROBAGE"
+    },
+    {
+      "MATRICULE": 20000618,
+      "NOM": "SABER",
+      "PRENOM": "HSSAINE",
+      "FONCTION": "CHAUFFEUR CAMION"
+    },
+    {
+      "MATRICULE": 20002222,
+      "NOM": "QUITTI",
+      "PRENOM": "ABDELWAHED",
+      "FONCTION": "CHAUFFEUR CAMION"
+    },
+    {
+      "MATRICULE": 20000597,
+      "NOM": "HAMMOUCHI",
+      "PRENOM": "MOHAMED",
+      "FONCTION": "COURSIER"
+    },
+    {
+      "MATRICULE": 20001230,
+      "NOM": "DAHNICH",
+      "PRENOM": "BRAHIM",
+      "FONCTION": "CHAUFFEUR CAMION"
+    },
+    {
+      "MATRICULE": 20001692,
+      "NOM": "BAHAIDA",
+      "PRENOM": "ABDELLATIF",
+      "FONCTION": "SOUDEUR"
+    },
+    {
+      "MATRICULE": 20003279,
+      "NOM": "BENNIRANE ",
+      "PRENOM": "RACHID",
+      "FONCTION": "CH PICK-UP"
+    },
+    {
+      "MATRICULE": 20000965,
+      "NOM": "RAOUANE",
+      "PRENOM": "KHALID",
+      "FONCTION": "OPERATEUR"
+    },
+    {
+      "MATRICULE": 20000961,
+      "NOM": "NAMRAOUI",
+      "PRENOM": "JAOUAD",
+      "FONCTION": "LABORANTIN C2"
+    },
+    {
+      "MATRICULE": 20000979,
+      "NOM": "ZOUINE",
+      "PRENOM": "ABDESLAM",
+      "FONCTION": "OUVRIER SPECIALISE"
+    },
+    {
+      "MATRICULE": 20000563,
+      "NOM": "EL KOUCHE",
+      "PRENOM": "BOUCHAIB",
+      "FONCTION": "OUVRIER SPECIALISE"
+    },
+    {
+      "MATRICULE": 20001348,
+      "NOM": "LAKHAL",
+      "PRENOM": "ADIL",
+      "FONCTION": "CH COMPACTEUR"
+    },
+    {
+      "MATRICULE": 20003180,
+      "NOM": "JALOUAJA ",
+      "PRENOM": "YOUNESS",
+      "FONCTION": "CHARGE DU CONTROLE DE GESTION"
+    },
+    {
+      "MATRICULE": 20002230,
+      "NOM": "ECH-CHAJY",
+      "PRENOM": "ALI",
+      "FONCTION": "CH CLARCK"
+    },
+    {
+      "MATRICULE": 20002616,
+      "NOM": "AIT ALI",
+      "PRENOM": "OUADI RACHID",
+      "FONCTION": "ANIMATEUR HSE"
+    },
+    {
+      "MATRICULE": 20000862,
+      "NOM": "EL KTAIBI",
+      "PRENOM": "ABDENBI",
+      "FONCTION": "CH TRACTO-PELLE"
+    },
+    {
+      "MATRICULE": 20000970,
+      "NOM": "ENSSISSE",
+      "PRENOM": "HASSAN",
+      "FONCTION": "CH COMPACTEUR"
+    },
+    {
+      "MATRICULE": 20000929,
+      "NOM": "AIT SAID",
+      "PRENOM": "AZIZ",
+      "FONCTION": "CH COMPACTEUR"
+    },
+    {
+      "MATRICULE": 20002609,
+      "NOM": "EL AMRI",
+      "PRENOM": "ABDELOUAHED",
+      "FONCTION": "CH TRACTO-PELLE"
+    },
+    {
+      "MATRICULE": 20000390,
+      "NOM": "BELAOUNI ",
+      "PRENOM": "AHMED",
+      "FONCTION": "CH COMPACTEUR"
+    },
+    {
+      "MATRICULE": 20002900,
+      "NOM": "OUCHMAME",
+      "PRENOM": "HASSAN",
+      "FONCTION": "POMPISTE"
+    },
+    {
+      "MATRICULE": 20000629,
+      "NOM": "EL BARNI",
+      "PRENOM": "EL MUSTAPHA",
+      "FONCTION": "CH COMPACTEUR"
+    },
+    {
+      "MATRICULE": 20000876,
+      "NOM": "BENJABIR",
+      "PRENOM": "MOHAMED",
+      "FONCTION": "CH TRACTO-PELLE"
+    },
+    {
+      "MATRICULE": 20003294,
+      "NOM": "BELHOUSSINE",
+      "PRENOM": "IMANE",
+      "FONCTION": "AGENT SUPPORT LOGISTIQUE"
+    },
+    {
+      "MATRICULE": 20000166,
+      "NOM": "OURHHOU",
+      "PRENOM": "LAHCEN",
+      "FONCTION": "CH COMPACTEUR"
+    },
+    {
+      "MATRICULE": 20002419,
+      "NOM": "GRINA",
+      "PRENOM": "SALAH",
+      "FONCTION": "OPERATEUR NIVEAU"
+    },
+    {
+      "MATRICULE": 20000761,
+      "NOM": "BAMMOU",
+      "PRENOM": "BRAHIM",
+      "FONCTION": "POMPISTE"
+    },
+    {
+      "MATRICULE": 20002959,
+      "NOM": "BOUYDSS",
+      "PRENOM": "ABDELAZIZ",
+      "FONCTION": "CHAUFFEUR CAMION"
+    },
+    {
+      "MATRICULE": 20002817,
+      "NOM": "ID ABDALLAH",
+      "PRENOM": "MOHAMED",
+      "FONCTION": "CHAUFFEUR CAMION"
+    },
+    {
+      "MATRICULE": 20000409,
+      "NOM": "NIGROU",
+      "PRENOM": "ABDELKEBIR",
+      "FONCTION": "REGLEUR FINISSEUR"
+    },
+    {
+      "MATRICULE": 20001812,
+      "NOM": "BOUALEN",
+      "PRENOM": "SAID",
+      "FONCTION": "CHAUFFEUR CAMION"
+    },
+    {
+      "MATRICULE": 20000910,
+      "NOM": "FASKA",
+      "PRENOM": "MUSTAPHA",
+      "FONCTION": "CHAUFFEUR CAMION"
+    },
+    {
+      "MATRICULE": 20002844,
+      "NOM": "LAHRACHE",
+      "PRENOM": "MOHAMED",
+      "FONCTION": "CHAUFFEUR CAMION"
+    },
+    {
+      "MATRICULE": 20002832,
+      "NOM": "BOUDAOUR",
+      "PRENOM": "MUSTAPHA",
+      "FONCTION": "REGLEUR FINISSEUR"
+    },
+    {
+      "MATRICULE": 20002952,
+      "NOM": "HAJJAM",
+      "PRENOM": "ACHOUR",
+      "FONCTION": "CHAUFFEUR CAMION"
+    },
+    {
+      "MATRICULE": 20001232,
+      "NOM": "AMOULA",
+      "PRENOM": "MILOUD",
+      "FONCTION": "COURSIER"
+    },
+    {
+      "MATRICULE": 20000778,
+      "NOM": "EL HAITI",
+      "PRENOM": "RACHID",
+      "FONCTION": "OPERATEUR NIVEAU"
+    }
+  ],
+  "AUTRES SOCIETE": [
+    {
+      "MATRICULE": 80300035,
+      "NOM": "AIT BOUCHOUI",
+      "PRENOM": "LAHOUSSAIN",
+      "FONCTION": "MAGASINIER",
+      "SOCIETE D'AFFECTATION": "ABRAR INDUSTRIE"
+    },
+    {
+      "MATRICULE": 90000001,
+      "NOM": "ABOUZZAD",
+      "PRENOM": "REDA",
+      "FONCTION": "TECHNICIEN",
+      "SOCIETE D'AFFECTATION": "ABRAR AGRO"
+    },
+    {
+      "MATRICULE": 90100016,
+      "NOM": "MALLOUK",
+      "PRENOM": "NABIL",
+      "FONCTION": "COURSIER",
+      "SOCIETE D'AFFECTATION": "ABRAR SO"
+    },
+    {
+      "MATRICULE": 90400005,
+      "NOM": "EL MOTAOUAKKEL",
+      "PRENOM": "ADNANE",
+      "FONCTION": "RESPONSABLE STOCK & LIVRAISON",
+      "SOCIETE D'AFFECTATION": "BITUMED"
+    },
+    {
+      "MATRICULE": 90400007,
+      "NOM": "BEN GHZALA",
+      "PRENOM": "HASSAN",
+      "FONCTION": "BITUMIER",
+      "SOCIETE D'AFFECTATION": "Bitumed"
+    },
+    {
+      "MATRICULE": 90400017,
+      "NOM": "BOUTFARDOUT",
+      "PRENOM": "MOUHCINE",
+      "FONCTION": "CH PICK-UP",
+      "SOCIETE D'AFFECTATION": "Bitumed"
+    },
+    {
+      "MATRICULE": 90400020,
+      "NOM": "CHAFYK",
+      "PRENOM": "ABDELGHANI",
+      "FONCTION": "AGENT DE SECURITE",
+      "SOCIETE D'AFFECTATION": "Bitumed"
+    },
+    {
+      "MATRICULE": 90400022,
+      "NOM": "MAADI",
+      "PRENOM": "YOUSSEF",
+      "FONCTION": "CH CAMION",
+      "SOCIETE D'AFFECTATION": "Bitumed"
+    },
+    {
+      "MATRICULE": 90400026,
+      "NOM": "EL IDRISSI",
+      "PRENOM": "SIDI MOHAMED",
+      "FONCTION": "CHAUFFEUR CAMION",
+      "SOCIETE D'AFFECTATION": "Bitumed"
+    },
+    {
+      "MATRICULE": 90400032,
+      "NOM": "MOUTTAKI",
+      "PRENOM": "ADIL",
+      "FONCTION": "AIDE BITUMIER",
+      "SOCIETE D'AFFECTATION": "Bitumed"
+    },
+    {
+      "MATRICULE": 90400033,
+      "NOM": "SADIKI",
+      "PRENOM": "FARID",
+      "FONCTION": "BITUMIER",
+      "SOCIETE D'AFFECTATION": "Bitumed"
+    },
+    {
+      "MATRICULE": 90400040,
+      "NOM": "EL-HAJ",
+      "PRENOM": "LAHCEN",
+      "FONCTION": "CH CAMION",
+      "SOCIETE D'AFFECTATION": "Bitumed"
+    },
+    {
+      "MATRICULE": 90400049,
+      "NOM": "SADDIKI",
+      "PRENOM": "SAID",
+      "FONCTION": "ASSISTANT",
+      "SOCIETE D'AFFECTATION": "Bitumed"
+    },
+    {
+      "MATRICULE": 90400053,
+      "NOM": "BENSMINA",
+      "PRENOM": "ABDELALI",
+      "FONCTION": "OPERATEUR",
+      "SOCIETE D'AFFECTATION": "Bitumed"
+    },
+    {
+      "MATRICULE": 90400054,
+      "NOM": "MOUGHNI",
+      "PRENOM": "HICHAM",
+      "FONCTION": "BITUMIER",
+      "SOCIETE D'AFFECTATION": "Bitumed"
+    },
+    {
+      "MATRICULE": 90400057,
+      "NOM": "EL HAJJAMI",
+      "PRENOM": "YOUSSEF",
+      "FONCTION": "BITUMIER",
+      "SOCIETE D'AFFECTATION": "Bitumed"
+    },
+    {
+      "MATRICULE": 90800005,
+      "NOM": "BEL MOKADEM",
+      "PRENOM": "SI AHMED",
+      "FONCTION": "COMMERCIAL",
+      "SOCIETE D'AFFECTATION": "ABRAR DEV IMMO"
+    }
+  ],
+  "Retraite": [
+    {
+      "Matricule": 20000526,
+      "Nom": "ABOUDI HAYAT",
+      "prenom": "RESPONSABLE TECHNIQUE"
+    },
+    {
+      "Matricule": 20003361,
+      "Nom": "AMAHANE MOHAMED",
+      "prenom": "CHEF CHANTIER "
+    },
+    {
+      "Matricule": 20003557,
+      "Nom": "OURAGHI MOHAMED",
+      "prenom": "INGENIEUR METHODE"
+    },
+    {
+      "Matricule": 20001590,
+      "Nom": "AIT OUALI MOHAMED",
+      "prenom": "CHAUFFEUR CAMION"
+    },
+    {
+      "Matricule": 10100156,
+      "Nom": "BOUFALJA KHALEB",
+      "prenom": "CAPORAL"
+    },
+    {
+      "Matricule": 10100593,
+      "Nom": "AIT TFOUGHALINE DRISS",
+      "prenom": "COMPTABME DE CHANTIER"
+    },
+    {
+      "Matricule": 10100618,
+      "Nom": "BOUDOUR MOHAMED",
+      "prenom": "MANŒUVRE FINISSEUR"
+    },
+    {
+      "Matricule": 10102559,
+      "Nom": "AOURAY MOHAMED",
+      "prenom": "CH.CAMION 4*2"
+    },
+    {
+      "Matricule": 10201102,
+      "Nom": "BACHRI KHALID",
+      "prenom": "LABORANTIN"
+    }
+  ],
+  "CAS SOCIAUX": [
+    {
+      "Matricule": 20000357,
+      "Nom": "AIT NACEUR MOHAMED",
+      "prenom": "COURSIER",
+      "fonction": "MALADIE"
+    },
+    {
+      "Matricule": 10101048,
+      "Nom": "GUESSAA RADI",
+      "prenom": "COND BULLDOZER",
+      "fonction": "DECES"
+    },
+    {
+      "Matricule": 10102878,
+      "Nom": "M'HANNI YASSINE",
+      "prenom": "MECANICIEN CAMION",
+      "fonction": "DECES"
+    },
+    {
+      "Matricule": 10104082,
+      "Nom": "OUHASSOU LAHCEN",
+      "prenom": "CH. CAMION 4*2",
+      "fonction": "DECES"
+    },
+    {
+      "Matricule": "journalies",
+      "Nom": "DIDI OUAKRIM",
+      "prenom": "MANŒUVRE",
+      "fonction": "DECES"
+    },
+    {
+      "Matricule": 10102051,
+      "Nom": "AIT LAHCEN  ABDELLAH",
+      "prenom": "OUVRIER SPECIALISE ",
+      "fonction": "AT"
+    },
+    {
+      "Matricule": "journalies",
+      "Nom": "MORAD SAID",
+      "prenom": "MANŒUVRE",
+      "fonction": "AT"
+    }
+  ]
+}

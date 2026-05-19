@@ -1,0 +1,61 @@
+{
+  "CAS SOCIAUX": [
+   
+    {
+      "CAS SOCIAUX 2026": "MATRICULE",
+     "NOM PRENOM": "NOM PRENOM",
+     "FONCTION": "FONCTION",
+     "OBSERVATION ": "OBSERVATION ",
+     "DATE": "DATE"
+    },
+    {
+      "CAS SOCIAUX 2026": 20000357,
+     "NOM PRENOM": "AIT NACEUR MOHAMED",
+     "FONCTION": "COURSIER",
+     "OBSERVATION ": "MALADIE",
+     "DATE": "DATE"
+    },
+    {
+      "CAS SOCIAUX 2026": 10101048,
+     "NOM PRENOM": "GUESSAA RADI",
+     "FONCTION": "COND BULLDOZER",
+     "OBSERVATION ": "DECES",
+     "DATE": "2026-01-01 00:00:00"
+    },
+    {
+      "CAS SOCIAUX 2026": 10102878,
+     "NOM PRENOM": "M'HANNI YASSINE",
+     "FONCTION": "MECANICIEN CAMION",
+     "OBSERVATION ": "DECES",
+     "DATE": "2026-05-01 00:00:00"
+    },
+    {
+      "CAS SOCIAUX 2026": 10104082,
+     "NOM PRENOM": "OUHASSOU LAHCEN",
+     "FONCTION": "CH. CAMION 4*2",
+     "OBSERVATION ": "DECES",
+     "DATE": "2025-08-01 00:00:00"
+    },
+    {
+      "CAS SOCIAUX 2026": "journalies",
+     "NOM PRENOM": "DIDI OUAKRIM",
+     "FONCTION": "MANŒUVRE",
+     "OBSERVATION ": "DECES",
+     "DATE": "2025-10-15 00:00:00"
+    },
+    {
+      "CAS SOCIAUX 2026": 10102051,
+     "NOM PRENOM": "AIT LAHCEN  ABDELLAH",
+     "FONCTION": "OUVRIER SPECIALISE ",
+     "OBSERVATION ": "AT",
+     "DATE": "A.C , grave >6mois d'arret"
+    },
+    {
+      "CAS SOCIAUX 2026": "journalies",
+     "NOM PRENOM": "MORAD SAID",
+     "FONCTION": "MANŒUVRE",
+     "OBSERVATION ": "AT",
+     "DATE": ">6 mois d'arret A.C grave"
+    }
+  ]
+}

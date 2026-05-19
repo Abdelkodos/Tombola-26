@@ -834,3 +834,222 @@ body::before {
   color: var(--charcoal);
   font-weight: 500;
 }
+
+/* ── Tombola Selection Grid ────────────────────────────────── */
+.tombola-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.2rem;
+}
+
+.tombola-card {
+  background: var(--white);
+  border: 1px solid var(--cream-mid);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-card);
+  padding: 2.5rem 2rem;
+  text-align: center;
+  cursor: pointer;
+  transition: var(--transition);
+  position: relative;
+  overflow: hidden;
+}
+
+.tombola-card::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0;
+  height: 3px;
+  background: linear-gradient(to right, var(--gold), var(--gold-light));
+  opacity: 0;
+  transition: var(--transition);
+}
+
+.tombola-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 32px rgba(184,137,42,0.15);
+  border-color: var(--gold-muted);
+}
+
+.tombola-card:hover::before { opacity: 1; }
+
+.tombola-card-icon {
+  font-size: 2.4rem;
+  color: var(--gold);
+  margin-bottom: 1rem;
+}
+
+.tombola-card-title {
+  font-family: var(--font-display);
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--charcoal);
+  margin-bottom: 0.5rem;
+}
+
+.tombola-card-sub {
+  font-size: 0.78rem;
+  color: var(--charcoal-lt);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* ── Company Setup Cards ───────────────────────────────────── */
+.company-setup-card { margin-bottom: 1rem; }
+
+.company-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.winner-input-group {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.winner-input-group label {
+  font-size: 0.82rem;
+  font-weight: 500;
+  color: var(--charcoal-mid);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.winner-count-input {
+  width: 72px;
+  padding: 8px 10px;
+  border: 1px solid var(--cream-mid);
+  border-radius: var(--radius-sm);
+  background: var(--cream);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--gold);
+  text-align: center;
+  outline: none;
+  transition: var(--transition);
+}
+
+.winner-count-input:focus {
+  border-color: var(--gold-muted);
+  background: var(--white);
+  box-shadow: 0 0 0 3px rgba(184,137,42,0.1);
+}
+
+.candidate-preview {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.more-tag {
+  background: var(--cream) !important;
+  color: var(--charcoal-lt) !important;
+  font-style: italic;
+  border-color: transparent !important;
+}
+
+.drawn-badge {
+  background: #FBF4E5 !important;
+  color: var(--gold) !important;
+  border-color: rgba(184,137,42,0.2) !important;
+  margin-left: 6px;
+}
+
+/* ── Draw Step ─────────────────────────────────────────────── */
+.draw-winners-list {
+  margin: 1.5rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.drawn-winner-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--white);
+  border: 1px solid var(--cream-mid);
+  border-radius: var(--radius-md);
+  padding: 12px 18px;
+  animation: slideIn 0.35s ease;
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateX(-12px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+.drawn-rank {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-style: italic;
+  color: var(--gold);
+  min-width: 32px;
+}
+
+.drawn-name {
+  font-weight: 600;
+  color: var(--charcoal);
+  font-size: 0.95rem;
+}
+
+.drawn-info {
+  font-size: 0.78rem;
+  color: var(--charcoal-lt);
+  margin-left: auto;
+  text-align: right;
+}
+
+/* ── History Grouping ──────────────────────────────────────── */
+.history-tombola-group {
+  margin-bottom: 2rem;
+}
+
+.history-tombola-title {
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: var(--gold);
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--cream-mid);
+}
+
+.history-draw-block {
+  background: var(--cream);
+  border-radius: var(--radius-md);
+  padding: 1rem 1.2rem;
+  margin-bottom: 0.8rem;
+}
+
+.history-draw-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 0.8rem;
+}
+
+.history-company-name {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--charcoal);
+}
+
+.history-draw-date {
+  font-size: 0.76rem;
+  color: var(--charcoal-lt);
+  margin-left: auto;
+}
+
+@media (max-width: 600px) {
+  .tombola-grid { grid-template-columns: 1fr; }
+  .company-header { flex-direction: column; align-items: flex-start; }
+  .drawn-winner-item { flex-wrap: wrap; }
+  .drawn-info { margin-left: 44px; }
+}
