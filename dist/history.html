@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abrar · Historique des Gagnants</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/styles-BKpnzkAC.css">
+</head>
+<body>
+
+<div class="page-wrapper">
+
+  <header class="site-header">
+    <div class="logo-area">
+      <img class="logo-img" src="./assets/logo-Dt2vAt6j.png" width="48" alt="Logo Abrar" />
+      <div class="logo-divider"></div>
+      <span class="logo-label">Tirage au Sort</span>
+    </div>
+    <nav class="header-nav">
+      <a class="nav-link" href="index.html">Tirage</a>
+      <a class="nav-link active" href="history.html">Historique</a>
+      <a class="nav-link" href="manage.html">Gestion</a>
+    </nav>
+  </header>
+
+  <div class="page-title">
+    <h1>Historique des <em>Gagnants</em></h1>
+    <p>Tous les tirages enregistrés par tombola</p>
+  </div>
+
+  <div style="display:flex;gap:0.5rem;justify-content:flex-end;margin-bottom:1.5rem">
+    <button class="btn btn-danger" onclick="clearAll()">
+      <i class="ti ti-trash"></i> Effacer tout
+    </button>
+  </div>
+
+  <div id="historyContainer"></div>
+
+</div>
+
+<script src="db.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', renderHistory);
+
+  function renderHistory() {
+    const container = document.getElementById('historyContainer');
+    const entries = DB.getWinners();
+
+    if (!entries.length) {
+      container.innerHTML = `
+        <div class="card">
+          <div class="empty-state">
+            <div class="empty-icon"><i class="ti ti-trophy"></i></div>
+            <p>Aucun gagnant pour l'instant.<br>Rendez-vous sur la page Tirage pour lancer votre premier tirage.</p>
+          </div>
+        </div>`;
+      return;
+    }
+
+    const grouped = {};
+    entries.forEach(entry => {
+      const key = entry.tombolaId || 'unknown';
+      if (!grouped[key]) grouped[key] = { name: entry.tombolaName, draws: [] };
+      grouped[key].draws.push(entry);
+    });
+
+    let html = '';
+    for (const [tombolaId, group] of Object.entries(grouped)) {
+      html += `
+      <div class="card" style="margin-bottom:1.5rem">
+        <div class="history-controls">
+          <p class="card-title" style="margin-bottom:0">${esc(group.name)}</p>
+          <button class="btn btn-outline" onclick="exportTombolaXlsx('${esc(tombolaId)}')">
+            <i class="ti ti-file-spreadsheet"></i> Exporter XLSX
+          </button>
+        </div>`;
+
+      group.draws.slice().reverse().forEach(draw => {
+        html += `
+        <div class="history-draw-block">
+          <div class="history-draw-header">
+            <span class="history-company-name">${esc(draw.company)}</span>
+            <span class="history-draw-date">${draw.date} à ${draw.time}</span>
+            <button class="del-btn" onclick="deleteEntry(${draw.id})" title="Supprimer">
+              <i class="ti ti-x"></i>
+            </button>
+          </div>
+          <table class="history-table">
+            <thead>
+              <tr><th>#</th><th>Nom</th><th>Prénom</th><th>Fonction</th><th>Matricule</th></tr>
+            </thead>
+            <tbody>
+              ${draw.winners.map((w, i) => `
+                <tr>
+                  <td class="rank-cell">${i + 1}</td>
+                  <td class="name-cell">${esc(w.nom)}</td>
+                  <td>${esc(w.prenom)}</td>
+                  <td class="date-cell">${esc(w.fonction)}</td>
+                  <td>${esc(w.matricule)}</td>
+                </tr>
+              `).join('')}
+            </tbody>
+          </table>
+        </div>`;
+      });
+
+      html += '</div>';
+    }
+
+    container.innerHTML = html;
+  }
+
+  function exportTombolaXlsx(tombolaId) {
+    const entries = DB.getWinners().filter(e => e.tombolaId === tombolaId);
+    if (!entries.length) { alert('Aucun tirage à exporter.'); return; }
+
+    const tombolaName = entries[0].tombolaName;
+    const wb = XLSX.utils.book_new();
+
+    entries.forEach(draw => {
+      const rows = draw.winners.map(w => ({
+        'Nom': (w.nom || '').trim(),
+        'Prénom': (w.prenom || '').trim(),
+        'Fonction': (w.fonction || '').trim(),
+        'Matricule': (w.matricule || '').trim(),
+      }));
+
+      const ws = XLSX.utils.json_to_sheet(rows);
+
+      // Auto-size columns
+      const colWidths = [
+        { wch: Math.max(10, ...rows.map(r => r['Nom'].length)) },
+        { wch: Math.max(10, ...rows.map(r => r['Prénom'].length)) },
+        { wch: Math.max(12, ...rows.map(r => r['Fonction'].length)) },
+        { wch: Math.max(12, ...rows.map(r => r['Matricule'].length)) },
+      ];
+      ws['!cols'] = colWidths;
+
+      // Sheet name: company name (max 31 chars for Excel)
+      let sheetName = draw.company.substring(0, 31);
+      // Ensure unique sheet name
+      let suffix = 1;
+      let finalName = sheetName;
+      while (wb.SheetNames.includes(finalName)) {
+        finalName = sheetName.substring(0, 28) + ` (${suffix++})`;
+      }
+
+      XLSX.utils.book_append_sheet(wb, ws, finalName);
+    });
+
+    XLSX.writeFile(wb, `${tombolaName.replace(/[^a-zA-Z0-9\s]/g, '')}.xlsx`);
+  }
+
+  function deleteEntry(id) {
+    if (!confirm("Supprimer ce tirage de l'historique ?")) return;
+    DB.deleteEntry(id);
+    renderHistory();
+  }
+
+  function clearAll() {
+    if (!confirm("Effacer tout l'historique et réinitialiser les tirages ? Cette action est irréversible.")) return;
+    DB.clearWinners();
+    DB.clearDrawnIds();
+    renderHistory();
+  }
+
+  function esc(str) {
+    return String(str || '').replace(/[&<>"']/g, c =>
+      ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  }
+</script>
+</body>
+</html>

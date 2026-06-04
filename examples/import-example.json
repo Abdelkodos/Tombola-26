@@ -1,0 +1,14 @@
+[
+  { "matricule": "40002001", "nom": "AKHMOUCH", "prenom": "SAID", "fonction": "DIRECTEUR TECHNIQUE" },
+  { "matricule": "40002002", "nom": "BOUHADDOU", "prenom": "LAILA", "fonction": "ANALYSTE FINANCIER" },
+  { "matricule": "40002003", "nom": "CHRAIBI", "prenom": "KARIM", "fonction": "CHEF DE PROJET" },
+  { "matricule": "40002004", "nom": "DOUKKALI", "prenom": "ZINEB", "fonction": "RESPONSABLE QUALITE" },
+  { "matricule": "40002005", "nom": "EL FASSI", "prenom": "ABDELILAH", "fonction": "OPERATEUR MACHINE" },
+  { "matricule": "40002006", "nom": "GUENNOUN", "prenom": "HOUDA", "fonction": "INFIRMIERE" },
+  { "matricule": "40002007", "nom": "HASSANI", "prenom": "BRAHIM", "fonction": "MAGASINIER" },
+  { "matricule": "40002008", "nom": "JAIDI", "prenom": "SOUAD", "fonction": "GESTIONNAIRE PAIE" },
+  { "matricule": "40002009", "nom": "KADIRI", "prenom": "TARIK", "fonction": "AGENT DE SECURITE" },
+  { "matricule": "40002010", "nom": "LAMRANI", "prenom": "AMINA", "fonction": "ARCHITECTE" },
+  { "matricule": "40002011", "nom": "MOULINE", "prenom": "NOUREDDINE", "fonction": "PLOMBIER" },
+  { "matricule": "40002012", "nom": "NACIRI", "prenom": "GHIZLANE", "fonction": "CONTROLEUR DE GESTION" }
+]

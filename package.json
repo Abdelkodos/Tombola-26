@@ -2,12 +2,32 @@
   "name": "tombola-26",
   "private": true,
   "version": "1.0.0",
+  "main": "electron.js",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "electron": "electron .",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "com.abrar.tombola",
+    "productName": "Abrar Tombola",
+    "directories": {
+      "output": "release"
+    },
+    "files": [
+      "electron.js",
+      "Tombola26/**/*"
+    ],
+    "win": {
+      "target": "portable",
+      "icon": "Tombola26/logo.png"
+    }
   },
   "devDependencies": {
+    "electron": "^42.3.3",
+    "electron-builder": "^26.8.1",
     "vite": "^8.0.13"
   }
 }

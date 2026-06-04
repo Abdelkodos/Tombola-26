@@ -3,6 +3,7 @@ import { resolve } from 'path';
 
 export default defineConfig({
   root: 'Tombola26',
+  base: './',
   build: {
     outDir: '../dist',
     emptyOutDir: true,

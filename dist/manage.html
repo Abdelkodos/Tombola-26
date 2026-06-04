@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abrar · Gestion des Données</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css" />
+  <link rel="stylesheet" crossorigin href="./assets/styles-BKpnzkAC.css">
+</head>
+<body>
+
+<div class="page-wrapper">
+
+  <header class="site-header">
+    <div class="logo-area">
+      <img class="logo-img" src="./assets/logo-Dt2vAt6j.png" width="48" alt="Logo Abrar" />
+      <div class="logo-divider"></div>
+      <span class="logo-label">Tirage au Sort</span>
+    </div>
+    <nav class="header-nav">
+      <a class="nav-link" href="index.html">Tirage</a>
+      <a class="nav-link" href="history.html">Historique</a>
+      <a class="nav-link active" href="manage.html">Gestion</a>
+    </nav>
+  </header>
+
+  <div class="page-title">
+    <h1>Gestion des <em>Données</em></h1>
+    <p>Tombolas, sociétés et employés</p>
+  </div>
+
+  <!-- Breadcrumb -->
+  <div id="breadcrumb" class="manage-breadcrumb"></div>
+
+  <!-- Level 1: Tombola List -->
+  <div id="viewTombolas"></div>
+
+  <!-- Level 2: Company List (within a tombola) -->
+  <div id="viewCompanies" style="display:none"></div>
+
+  <!-- Level 3: Employee List (within a company) -->
+  <div id="viewEmployees" style="display:none"></div>
+
+</div>
+
+<!-- Modal -->
+<div id="modal" class="modal-overlay" style="display:none">
+  <div class="modal-box">
+    <div class="modal-header">
+      <h3 id="modalTitle"></h3>
+      <button class="del-btn" onclick="closeModal()"><i class="ti ti-x"></i></button>
+    </div>
+    <div id="modalBody"></div>
+    <div class="modal-actions" id="modalActions"></div>
+  </div>
+</div>
+
+<script src="db.js"></script>
+<script src="manage.js"></script>
+</body>
+</html>

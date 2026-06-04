@@ -128,27 +128,8 @@ const DB = (() => {
     }
   }
 
-  // ── Seed from JSON (first load) ──
-  function isSeeded() { return !!_get(KEYS.seeded); }
-  function markSeeded() { return _set(KEYS.seeded, true); }
-
-  async function seedFromJSON() {
-    if (isSeeded()) return;
-    try {
-      const res = await fetch('data/tombolas.json');
-      const config = await res.json();
-      const tombolas = config.map(t => ({ id: t.id, name: t.name }));
-      setTombolas(tombolas);
-      for (const t of config) {
-        const dataRes = await fetch(t.file);
-        const data = await dataRes.json();
-        setTombolaData(t.id, data);
-      }
-      markSeeded();
-    } catch (e) {
-      console.error('Seed failed:', e);
-    }
-  }
+  function seedFromJSON() {}
+  function isSeeded() { return true; }
 
   return {
     getWinners, addWinners, deleteEntry, clearWinners,

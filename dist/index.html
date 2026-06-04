@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abrar · Tirage au Sort</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.44.0/tabler-icons.min.css" />
+  <link rel="stylesheet" crossorigin href="./assets/styles-BKpnzkAC.css">
+</head>
+
+<body>
+
+  <div id="confettiContainer" class="confetti-container"></div>
+
+  <div class="page-wrapper">
+
+    <header class="site-header">
+      <div class="logo-area">
+        <img class="logo-img" src="./assets/logo-Dt2vAt6j.png" width="128" alt="Logo Abrar" />
+        <div class="logo-divider"></div>
+        <span class="logo-label">Tirage au Sort</span>
+      </div>
+      <nav class="header-nav">
+        <a class="nav-link active" href="index.html">Tirage</a>
+        <a class="nav-link" href="history.html">Historique</a>
+        <a class="nav-link" href="manage.html">Gestion</a>
+      </nav>
+    </header>
+
+    <!-- ① Tombola Selection -->
+    <div id="stepTombola">
+      <div class="page-title">
+        <h1>Choisir une <em>Tombola</em></h1>
+        <p>Sélectionnez la tombola pour commencer le tirage</p>
+      </div>
+      <div id="tombolaGrid" class="tombola-grid"></div>
+    </div>
+
+    <!-- ② Company Setup (hidden initially) -->
+    <div id="stepCompanies" style="display:none">
+      <div class="page-title">
+        <h1 id="tombolaTitle"></h1>
+        <p>Définissez le nombre de gagnants par société, puis lancez le tirage</p>
+      </div>
+      <button class="btn btn-ghost" onclick="backToTombolas()" style="margin-bottom:1.5rem">
+        <i class="ti ti-arrow-left"></i> Retour aux tombolas
+      </button>
+      <div id="companyCards"></div>
+      <div class="gold-divider"></div>
+      <button class="btn-draw" id="launchAllBtn" onclick="launchDraw()">
+        <i class="ti ti-confetti"></i> Lancer le Tirage
+      </button>
+    </div>
+
+    <!-- ③ Draw in progress (hidden initially) -->
+    <div id="stepDraw" style="display:none">
+      <div class="draw-top-bar">
+        <div class="page-title" style="margin-bottom:0">
+          <h1 id="drawTitle"></h1>
+          <p id="drawSubtitle"></p>
+        </div>
+        <div class="mode-toggle" onclick="toggleMode()">
+          <div class="mode-toggle-track" id="modeTrack">
+            <div class="mode-toggle-thumb" id="modeThumb"></div>
+          </div>
+          <span class="mode-toggle-label" id="modeLabel">Spectacle</span>
+        </div>
+      </div>
+      <div class="winner-card visible" id="drawCard">
+        <p class="winner-eyebrow" id="drawEyebrow"></p>
+        <div id="drawContent">
+          <p class="rolling-text">· · ·</p>
+        </div>
+      </div>
+      <div id="drawWinnersList" class="draw-winners-list"></div>
+      <button class="btn-draw" id="nextCompanyBtn" style="display:none" onclick="drawNextCompany()">
+        <i class="ti ti-arrow-right"></i> Société Suivante
+      </button>
+      <button class="btn-draw" id="finishBtn" style="display:none" onclick="finishTombola()">
+        <i class="ti ti-check"></i> Terminer cette Tombola
+      </button>
+    </div>
+
+  </div>
+
+  <script src="db.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
