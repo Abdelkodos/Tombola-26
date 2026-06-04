@@ -9,8 +9,8 @@ let entertainmentMode = true;
 const confettiEl = document.getElementById('confettiContainer');
 
 document.addEventListener('DOMContentLoaded', async () => {
-  const res = await fetch('data/tombolas.json');
-  tombolasConfig = await res.json();
+  await DB.seedFromJSON();
+  tombolasConfig = DB.getTombolas();
   renderTombolaSelection();
 });
 
@@ -38,12 +38,11 @@ function renderTombolaSelection() {
   `).join('');
 }
 
-async function selectTombola(id) {
+function selectTombola(id) {
   currentTombola = tombolasConfig.find(t => t.id === id);
   if (!currentTombola) return;
 
-  const res = await fetch(currentTombola.file);
-  currentData = await res.json();
+  currentData = DB.getTombolaData(id);
 
   renderCompanySetup();
 }

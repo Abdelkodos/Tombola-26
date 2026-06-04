@@ -21,7 +21,11 @@
       "PowerShell(Set-Content *)",
       "PowerShell(node C:\\\\Users\\\\User\\\\workspace\\\\Tombola-26\\\\rename_and_split.js)",
       "PowerShell($s = Get-Content 'C:\\\\Users\\\\User\\\\workspace\\\\Tombola-26\\\\Tombola26\\\\data\\\\sessen.json' | ConvertFrom-Json; $m = Get-Content 'C:\\\\Users\\\\User\\\\workspace\\\\Tombola-26\\\\Tombola26\\\\data\\\\moutons.json' | ConvertFrom-Json; $c = Get-Content 'C:\\\\Users\\\\User\\\\workspace\\\\Tombola-26\\\\Tombola26\\\\data\\\\cassociaux.json' | ConvertFrom-Json; Write-Output \"=== SESSEN ===\"; foreach \\($k in \\($s | Get-Member -MemberType NoteProperty\\).Name\\) { Write-Output \"  $k : $\\($s.$k.Count\\)\" }; Write-Output \"`n=== MOUTONS ===\"; foreach \\($k in \\($m | Get-Member -MemberType NoteProperty\\).Name\\) { Write-Output \"  $k : $\\($m.$k.Count\\)\" }; Write-Output \"`n=== CAS SOCIAUX ===\"; foreach \\($k in \\($c | Get-Member -MemberType NoteProperty\\).Name\\) { Write-Output \"  $k : $\\($c.$k.Count\\)\" })",
-      "Bash(node -e ' *)"
+      "Bash(node -e ' *)",
+      "Bash(npx vite *)",
+      "Bash(timeout 5)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/manage.html)",
+      "PowerShell(Start-Sleep -Seconds 4; Invoke-WebRequest -Uri \"http://localhost:3000/manage.html\" -UseBasicParsing | Select-Object -ExpandProperty StatusCode)"
     ]
   }
 }

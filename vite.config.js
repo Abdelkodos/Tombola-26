@@ -10,6 +10,7 @@ export default defineConfig({
       input: {
         main: resolve(__dirname, 'Tombola26/index.html'),
         history: resolve(__dirname, 'Tombola26/history.html'),
+        manage: resolve(__dirname, 'Tombola26/manage.html'),
       },
     },
   },
